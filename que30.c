@@ -3,7 +3,7 @@
 #include <math.h>
 int main()
 {
-    int a,b,c;
+    int a,b;
 printf("\n Enter the first number = ");
 scanf("%d",&a);
 
