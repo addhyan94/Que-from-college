@@ -8,7 +8,7 @@ int main()
     char c;
     a=10;
     b=10.2;
-    c='ram';
+    c='R';
     printf("\n value of  a=%d",a);
     printf("\n value of b=%f",b);
     printf("\n value of a=%c",c);
