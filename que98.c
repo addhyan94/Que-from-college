@@ -1,5 +1,5 @@
-/* WAP to input a number two number amd calculate lcm and lcf of these number .
-formula = first number / second number = lcm/lcf */
+/* WAP to input two number amd calculate lcm and hcf of these number .
+formula = first number / second number = lcm/hcf */
 
 #include <stdio.h>
 #include<conio.h>
