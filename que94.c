@@ -1,4 +1,4 @@
-/* WAP to input a number and print factorial value of each digit of ex if number is 35 factorial value of 5=125 , factorial value of 3=6. */
+/* WAP to input a number and print factorial value of each digit of ex if number is 35 factorial value of 5=120 , factorial value of 3=6. */
 
 #include <stdio.h>
 #include <conio.h>
