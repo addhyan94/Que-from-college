@@ -1,3 +1,4 @@
+
 /*112....  WAP to print tribinocci serise 
                                 0,1,1,2,4,7,13,24... n terms */
 
