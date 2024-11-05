@@ -1,4 +1,4 @@
-
+//                              For loop ka use karke 
 
 #include <stdio.h>
 #include <conio.h>
