@@ -1,5 +1,4 @@
-//                                 ~~ Series using While Loop 
-
+//                                 ~~ Series using Do-While Loop  
 /* WAP to follow Series....
                             3,6,12,24....n terms .*/
 
