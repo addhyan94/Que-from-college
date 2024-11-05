@@ -7,17 +7,17 @@
 
 int main()
 {
-    int i,n,s,p;
-    p=8;
+    int i, n, s, p;
+    p = 8;
     printf("\n Enter a number = ");
-    scanf("%d",&n);
+    scanf("%d", &n);
     printf(" serise : ");
     i = 1;
-    while(  i <=n )
+    do
     {
-        s=p;
-        printf("%d,",s);
-        p=p+6;
-    i++;
-    }
+        s = p;
+        printf("%d,", s);
+        p = p + 6;
+        i++;
+    } while(i <= n);
 }

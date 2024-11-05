@@ -5,18 +5,18 @@
 #include <stdio.h>
 #include<conio.h>
 int main()
- {
-    int n,i,s;
-   
+{
+    int n, i, s;
+
     printf("\n Enter the number of terms: ");
     scanf("%d", &n);
-  
+
     printf("Series: ");
-   i = 1;
-    while( i <= n) 
-{
-    s=2*i-1;
+    i = 1;
+    do
+    {
+        s = 2 * i - 1;
         printf("%d ,  ", s);
-    i++;
-    }
+        i++;
+    } while(i <= n);
 }

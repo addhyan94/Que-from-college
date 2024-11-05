@@ -6,20 +6,20 @@
 #include<conio.h>
 
 int main()
- {
-    int i, n,s,k;
-    s=3;
-    
+{
+    int i, n, s, k;
+    s = 3;
+
     printf("\n Enter the number= ");
     scanf("%d", &n);
 
     printf("Series: ");
     i = 1;
-    while ( i <= n) 
+    do
     {
-        k=s;
+        k = s;
         printf("%d, ", s);
-        s=s*2;
-         i++;
-    }
+        s = s * 2;
+        i++;
+    } while (i <= n);
 }

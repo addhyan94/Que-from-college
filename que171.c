@@ -7,15 +7,15 @@
 
 int main() 
 {
-    int n,i;
-   
+    int n, i;
+
     printf("/n Enter the number of terms: ");
     scanf("%d", &n);
     printf("Series: ");
     i = 1;
-    while( i <= n)
+    do
     {
         printf("%d , ", i);
-       i++;
-    }        
+        i++;
+    } while(i <= n);        
 }
