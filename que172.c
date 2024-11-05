@@ -1,4 +1,4 @@
-//                                 ~~ Patterns using While Loop 
+//                                 ~~ Series using While Loop 
 /*WAP to follow Series ....
                    2 ,  4 ,  6 ,  8 ,  10     */
 
