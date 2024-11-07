@@ -26,4 +26,6 @@ int main()
     // Output the discount and final amount to be paid
     printf("Discount: Rs. %.2f\n", discount);
     printf("Final amount to be paid: Rs. %.2f\n", finalAmount);
+
+    return 0;
 }
