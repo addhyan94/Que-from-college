@@ -3,6 +3,6 @@
 
 int main()
 {
-    printg("\n Bu jhansi");
+    printf("\n Bu jhansi");
     return 0;
 }
