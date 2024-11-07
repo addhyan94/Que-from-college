@@ -14,6 +14,4 @@ int main()
     {
         printf("\n this is not equal to 5");
     }
-    
-    return 0;
 }

@@ -14,6 +14,4 @@ int main()
     {
         printf("\n you are eligible to voter ");
     }
-    
-    return 0;
 }
