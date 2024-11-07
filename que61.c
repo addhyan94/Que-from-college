@@ -21,5 +21,5 @@ default:
 printf("\n Error : Your choice is wrong");
 
 }
-    return 0;
+
 }

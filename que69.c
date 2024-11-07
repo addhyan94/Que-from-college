@@ -40,5 +40,5 @@ printf("Enter the lengths of the three sides of the triangle:\n");
             printf("Error: Invalid choice. Please select 1 or 2.\n");
             break;
     }
-return 0;
+
 }

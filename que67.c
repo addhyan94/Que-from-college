@@ -42,5 +42,5 @@ break;
 default:
 printf("\n Tihis is a consoaunt , not a vovil ");
     }
-    return 0;
+
 }

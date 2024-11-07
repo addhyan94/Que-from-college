@@ -36,5 +36,5 @@ int main()
         default:
             printf("\n ERROR :: Your Choice is Wrong ");
         }
-    return 0;
+
 }

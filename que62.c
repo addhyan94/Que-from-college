@@ -17,5 +17,5 @@ printf("\n Hello Bundelkhand");;        /* code */
     default:
         printf("\n Error: Your choice is wrong ");
     }
-    return 0;
+
 }

@@ -16,5 +16,5 @@ int main()
         printf("\n %d This is the gratest number ",a);
 
     }
-    return 0;
+
 }

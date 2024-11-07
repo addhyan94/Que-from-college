@@ -25,5 +25,4 @@ int main()
     default:
         printf("\n ERROR :: Your choice is wrong ");
     }
-    return 0;
 }
