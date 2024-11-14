@@ -48,13 +48,7 @@ int main()
 #include<conio.h>
  void main()
  {
-    printf("\n  Myself NEHA SAHU");
-    printf("\n \t phone number=8112868050");
-    printf("\n \taddress= 64,indide bada gaon gate jhansi");
-    printf("\n \tfather's name= sunil sahu ");
-    printf("\n \t mother's name= neetu sahu");
-    printf("\n \tdob=09\04\2006 ");
- }
+
 */
 #include <stdio.h>
 #include <conio.h>
