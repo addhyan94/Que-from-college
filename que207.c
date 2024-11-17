@@ -2,9 +2,7 @@
 
 #include <stdio.h>
 #include <conio.h>
-
 int check(int);
-
 int main() 
 {
     int num, r;

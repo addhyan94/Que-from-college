@@ -2,9 +2,7 @@
 
 #include <stdio.h>
 #include <conio.h>
-
 int sum(int);
-
 int main() 
 {
     int num, r;
