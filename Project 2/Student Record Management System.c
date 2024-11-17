@@ -30,7 +30,7 @@ void addStudent()
         scanf("%f", &students[studentCount].marks);
 
         studentCount++;                // ek bacche ke bbad dushra aageya isliye count badha diya 
-        printf("Student added successfully!\n"); // batana bhi parega na Confirmation ho gaya bhaiii
+        printf("\n Student added successfully!\n"); // batana bhi parega na Confirmation ho gaya bhaiii
     } 
     else 
     {
@@ -44,16 +44,16 @@ void displayStudents()
     // agar hamare school me bacche he naaa hai to yr bhi batana parega naaaaaa 
     if (studentCount == 0) 
     {
-        printf("No records to display.\n");
+        printf("\n No records to display.\n");
     } 
     else 
     {
-        printf("\nStudent Records:\n");
-        for (int i = 0; i < studentCount; i++) // aab itne sare bacche hai to sabhi ko batane ke liye loop use karte hai bhaiii 
+        printf("\n Student Records:\n");
+        for (int i = 1; i <= studentCount; i++) // aab itne sare bacche hai to sabhi ko batane ke liye loop use karte hai bhaiii 
         {
-            printf("Roll Number: %d\n", students[i].rollNumber); // Roll number print
-            printf("Name: %s\n", students[i].name);              // Naam print
-            printf("Marks: %.2f\n\n", students[i].marks);        // Marks print
+            printf("\n%d-Roll Number: %d\n",i, students[i].rollNumber); // Roll number print
+            printf("  Name: %s\n", students[i].name);              // Naam print
+            printf("  Marks: %.2f\n\n", students[i].marks);        // Marks print
         }
     }
 }
@@ -79,7 +79,7 @@ void searchStudent()
         }
     }
     // Jab roll number he bhul jaye to batana jaruri hai naa 
-    printf("Record not found.\n");
+    printf("\n Record not found.\n");
 }
 
 int main() 
@@ -92,7 +92,7 @@ int main()
         printf("2. Display All Students\n");
         printf("3. Search Student\n");
         printf("4. Exit\n");
-        printf("Enter your choice: ");
+        printf("\n Enter your choice: ");
         scanf("%d", &choice);
 
         // User choice ke according appropriate function call karte hain naa
