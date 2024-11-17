@@ -1,3 +1,4 @@
+//                              usning Arrays 
 /*WAP to input 5 elements into an array and swap and swap first element with last element,second element with second last and so on..*/
 #include<stdio.h>
 #include<conio.h>
