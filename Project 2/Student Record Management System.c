@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include<conio.h>
+#include<windows.h>
 
 #define MAX_STUDENTS 100  //  mare school me isse jada bacche na hai to aab yahe hai Maximum number 
 
