@@ -1,117 +1,83 @@
 #include <stdio.h>
-#include<conio.h>
+#include <conio.h>
+#include <windows.h>
 
-#define MAX_STUDENTS 100  //  mare school me isse jada bacche na hai to aab yahe hai Maximum number 
+#define MAX_VAL 100
 
-// Structure banaya hai baccho ki details store karne ke liye
-struct Student 
-{
-    int rollNumber;       // Roll Number store karne ke liye
-    char name[50];        // baccho  ka naam store karne ke liye
-    float marks;          // baccho ke marks store karne ke liye
+struct Rec { 
+    int X1; 
+    char X2[50]; 
+    float X3; 
 };
 
-struct Student students[MAX_STUDENTS];  // Array banaya students ke records store karne ke liye
-int studentCount = 0;                   // Ab tak total students kitne add hue hain yeh track karne ke liye
+struct Rec Data[MAX_VAL];
+int Total = 0;
 
-// ek baccha add karne ke liye hai bhai - ek ek karke he to 100 ban jayege 
-void addStudent()
-{
-    // agar baccho ki list me jage hai to add to kargehe naa 
-    if (studentCount < MAX_STUDENTS) 
-    {
-        printf("Enter Roll Number: "); // User se roll number input kara rahe jisse aapan ko pata chal paye 
-        scanf("%d", &students[studentCount].rollNumber);// Structure banaya tha uper usko call kiya fer uske aander rollnumber ko call kiya 
+void FuncA() {
+    if (Total < MAX_VAL) {
+        printf("Enter Roll Number: ");
+        scanf("%d", &Data[Total].X1);
 
-        printf("Enter Name: ");        // User se naam input le rahe hain
-        scanf(" %[^\n]%*c", students[studentCount].name); // jab naam lenge to usme space bhi aayega to uske liye kuch to karna he hoga to ye kar diya 
+        printf("Enter Name: ");
+        scanf(" %[^\n]%*c", Data[Total].X2);
 
-        printf("Enter Marks: ");       // User se marks input le rahe hain
-        scanf("%f", &students[studentCount].marks);
+        printf("Enter Marks: ");
+        scanf("%f", &Data[Total].X3);
 
-        studentCount++;                // ek bacche ke bbad dushra aageya isliye count badha diya 
-        printf("\n Student added successfully!\n"); // batana bhi parega na Confirmation ho gaya bhaiii
-    } 
-    else 
-    {
-        printf("Student list is full.\n");  // hamare pass jage he naa hai to batana to parta hai naa 
+        Total++;
+        printf("\n Student added successfully!\n");
+    } else {
+        printf("Student list is full.\n");
     }
 }
 
-// aab bacche hai to dekhana bhi parega naa isliye 
-void displayStudents() 
-{
-    // agar hamare school me bacche he naaa hai to yr bhi batana parega naaaaaa 
-    if (studentCount == 0) 
-    {
+void FuncB() {
+    if (Total == 0) {
         printf("\n No records to display.\n");
-    } 
-    else 
-    {
+    } else {
         printf("\n Student Records:\n");
-        for (int i = 1; i <= studentCount; i++) // aab itne sare bacche hai to sabhi ko batane ke liye loop use karte hai bhaiii 
-        {
-            printf("\n%d-Roll Number: %d\n",i, students[i].rollNumber); // Roll number print
-            printf("  Name: %s\n", students[i].name);              // Naam print
-            printf("  Marks: %.2f\n\n", students[i].marks);        // Marks print
+        for (int IDX = 0; IDX < Total; IDX++) {
+            printf("\nRoll Number: %d\n", Data[IDX].X1);
+            printf("  Name: %s\n", Data[IDX].X2);
+            printf("  Marks: %.2f\n\n", Data[IDX].X3);
         }
     }
 }
 
-// aab pata bhi kese chale kiska roll number hai to search bhi karna parega baccho ko 
-void searchStudent() 
-{
-    int roll;
-    printf("Enter Roll Number to search: "); //chalo dethe hai roll number yaad hai ya nahi ' dal doo aapna Roll no..'
-    scanf("%d", &roll);
+void FuncC() {
+    int SearchKey;
+    printf("Enter Roll Number to search: ");
+    scanf("%d", &SearchKey);
 
-    // agar sahi dala hai roll number to check he kar lete hai bhaiii 
-    for (int i = 0; i < studentCount; i++) 
-    {
-        // jab rool number yaad karke mil jaye to batana bhi parta hai naa 
-        if (students[i].rollNumber == roll) 
-        {
+    for (int IDX = 0; IDX < Total; IDX++) {
+        if (Data[IDX].X1 == SearchKey) {
             printf("Record Found:\n");
-            printf("Roll Number: %d\n", students[i].rollNumber);
-            printf("Name: %s\n", students[i].name);
-            printf("Marks: %.2f\n", students[i].marks);
-            return;// jab iske aange kuch hai he naa to wapus bhi bhejna parega naaa
+            printf("Roll Number: %d\n", Data[IDX].X1);
+            printf("Name: %s\n", Data[IDX].X2);
+            printf("Marks: %.2f\n", Data[IDX].X3);
+            return;
         }
     }
-    // Jab roll number he bhul jaye to batana jaruri hai naa 
     printf("\n Record not found.\n");
 }
 
-int main() 
-{
-    int choice;
+int main() {
+    int OPT;
     do {
-        // aab jo choice karni hai bo pata bhi to honi chiye naa 
         printf("\n--- Student Record System ---\n");
         printf("1. Add Student\n");
         printf("2. Display All Students\n");
         printf("3. Search Student\n");
         printf("4. Exit\n");
         printf("\n Enter your choice: ");
-        scanf("%d", &choice);
+        scanf("%d", &OPT);
 
-        // User choice ke according appropriate function call karte hain naa
-        switch (choice) 
-        {
-            case 1: 
-            addStudent(); // call kiya kuki Student add karna hai
-                    break;
-            case 2: 
-            displayStudents(); // call kiya kuki Sabhi students ko display karna hai
-                    break;
-            case 3: 
-            searchStudent(); // call kiya kuki Student search karna hai
-                    break;
-            case 4: 
-            printf("\n Exiting..."); // aab kuch karna he nahi to chalo bahar 
-                    break;
-            default: 
-            printf("\nERROR:: Invalid choice! Try again."); // jab userdekh kar bhi sahi na dale 
+        switch (OPT) {
+            case 1: FuncA(); break;
+            case 2: FuncB(); break;
+            case 3: FuncC(); break;
+            case 4: printf("\n Exiting..."); break;
+            default: printf("\nERROR:: Invalid choice! Try again.");
         }
-    } while (choice != 4); // loop jab band hoga jab user 4  dale 
+    } while (OPT != 4);
 }
