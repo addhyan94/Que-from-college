@@ -7,8 +7,8 @@
 
 int main() 
 {
-    int num, guess, no_of_guess;
-    no_of_guess = 0;
+    int num, guess, guess_num;
+    guess_num = 0;
 
     // srand(time(0)) random number generator ka seed set karta hai, taki har run par alag number miljaye
     srand(time(0)); 
@@ -28,7 +28,7 @@ int main()
         scanf("%d", &guess);
 
         // Har attempt par guess ki counting badhne ke liye
-        no_of_guess++;
+        guess_num++;
 
         // Agar guess , random number se bada hai
         if (guess > num) 
@@ -44,7 +44,7 @@ int main()
         else 
         {
             // User ko congratulate karte hain aur attempt count batadete hain
-            printf(" \033[1;37mCongratulations! You guessed the number in %d attempts.\033[0m\n", no_of_guess);
+            printf(" \033[1;37mCongratulations! You guessed the number in %d attempts.\033[0m\n", guess_num);
         }
     } while (guess != num); // Loop tab tak chalega jab tak user sahi number guess nahi karta
 }
