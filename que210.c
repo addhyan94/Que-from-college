@@ -2,8 +2,10 @@
 
 #include<stdio.h>
 #include<conio.h>
+
 int sum(int);
 int digit(int);
+
 int main()
 {
     int n,v;
