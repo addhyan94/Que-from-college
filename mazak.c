@@ -1,5 +1,7 @@
 //   Isme aapane 2 program bane hue hai ek hai patterns bala or array bala okee ...
 
+// mazak important hai
+
 //                                      ~~ Patterns ~~
 /*#include <stdio.h>
 #include <conio.h>
