@@ -1,3 +1,5 @@
+// kuch to karna he hai na to kar rahe hai pprogram
+
 /*#include <stdio.h>
 #include <conio.h>
 
