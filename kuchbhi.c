@@ -1,4 +1,7 @@
-// kuch to karna he hai na to kar rahe hai pprogram
+// kuch to karna he hai na to kar rahe hai pprogram bana rahe hai 
+//
+//
+
 
 /*#include <stdio.h>
 #include <conio.h>
@@ -25,7 +28,7 @@ int main()
         
     }
 }*/
-
+// second 
 /*#include <stdio.h>
 #include <conio.h>
 
