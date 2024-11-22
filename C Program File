@@ -1,0 +1,6194 @@
+                                                          C Program file 
+
+
+																													All Programs 1 to 220 With Outputs............
+
+
+1. write a program to print BU jhansi.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{				
+printf (“\n BU Jhansi”);
+} 
+Output-
+BU Jhansi
+
+2.  write a program to print your name……
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+printf(“\n my name is……….”);
+}
+Output-
+my name is………..
+
+3. write a program to print two cities name in different line using two print function
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+printf(“\n mumbai”);
+printf(“\n jhansi”);
+}
+
+Output-   
+ mumbai
+
+ 4. write a program to print two subject names in different lines using one print function.
+ 
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+printf(“\n hindi \n math”);
+}
+Output-
+
+hindi 
+math
+
+5. write a program to print two subject names, take an integer variable, assign a value to this variable and print the value with a suitable message.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a;
+a=50;
+printf(“\n the value of a is =%d”,a);
+}
+
+Output-
+the value of a is =50
+
+6. write a program to take 1 Decimal type variable using a value to this variable and print the value and write a suitable message.
+
+#include<stdio.h>
+#include<conio.h>
+void main
+{
+float pi;
+pi=3.14;
+printf(“the value of pi is =%d”pi);
+}
+
+Output-
+the value of pi is =3.14
+
+7. write a program to take a character variable using a value to this variable and print the value with a slutable message.
+ 
+#include<conio.h>
+#include<conio.h>
+void main()
+{
+char first-'alphabet;
+first-'alphabet=’a’;
+printf(“the first letter of alphabet is =%c ”,first-'alphabet);
+}
+
+Output-
+the first letter of alphabet is = a
+
+8. write a program to take1 integer , float and 1 character variable using the value to these lines with a stutable message .
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int num;
+float decimal;
+num=2;
+decimal=3.21;
+a=’d’;
+printf(“example of integer value is =%d\n
+           example of float value is =%f\n
+            example of character value is=num;decimal;a ”);
+}
+
+Output-
+ 
+example of integer value is =2
+example of float value is=3.12
+example of character value is =d
+
+9. write a program to take 2 integer variable using the value to there variables and print with suitable message
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int num,member;
+num=10;
+member=25;
+printf(“the number of house=%d\n
+          total member=%d”,num,member);
+}
+
+Output-
+the number of house=10
+total member=25
+
+10. write a program, take 2 float variables in using the value to these variables and print each value in 2 print functions.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float a,b;
+a=7.89;
+b=6.67;
+printf(“the value of a=%f”,a);
+printf(“\n the value of b=%f”,b);
+}
+
+Output-
+the value of a=7.89
+the value of b=6.67
+
+11. write a program to input one integer value and print this value with a suitable message.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+printf(“enter  a integer value =”);
+scanf(“%d”,&a);
+printf(“\n you entered =%d”,a);
+}
+
+Output-
+enter a integer value =5
+you enter =5
+
+12. write a program to input one decimal value and print it with a suitable message.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float a;
+printf(“enter a decimal value =”);
+scanf(“%f”’,&a);
+printf(“\n you entered =%f”’,a);
+}
+
+Output-
+
+enter decimal value =3.35
+you entered =3.35
+
+13. write a program to input one character value and print it with a suitable message.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+printf(“enter a character value =”);
+scanf(“%c”,&a);
+printf(“\n you entered =%c”,a);
+}
+Output-
+enter a character value =p
+you entered =p
+
+14. write a program to input two integer values and print these values with suitable messages in different lines.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b;
+printf(“enter your a=”);
+scanf(“%d”,&a);
+printf(“\n enter your b=”);
+scanf(“%d”,&b);
+printf(“\n your enter a=%d and b=%d”,a,b);
+}
+
+Output-
+
+enter your a=3
+enter your b=6
+your enter a=3 and b=6
+
+15. write a program to input one integer ,decimal , and character , value and print them in different lines with sesstable message.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+printf(“enter a integer value =”);
+scanf(“%d”,&a);
+printf(“\n enter a decimal value=”);
+scanf(“%f”,&b);
+printf(“\n enter a character value=”);
+scanf(“%c”,&c);
+printf(“\n you enter a integer value =%d
+             \n your enter b decimal value =%f
+              \n your enter c character value =%c”,a,b,c);
+}
+
+Output-
+
+enter a integer value=3
+enter b decimal value =1.4
+enter c character value =v
+your enter a integer value =3
+your enter b decimal value=1.4
+your enter c charade value =v
+
+16. write a program to print the square root of the given number by user as input.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int n;
+printf(“find the square root of=”);
+scanf(“%d”,&n);
+floot sqr=sqrt(n);
+printf(“\n the square root of %d is =%f”,n,sqr);
+}
+
+Output-
+find square root of =25
+the square root of 25 is =5.00000
+
+17. write a program to input a and b as integers and print it in from a/b.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b;
+printf(“enter the value of a=”);
+scanf(“%d”,&a);
+printf(“\n enter the value of b=”);
+scanf(“%d”,&b);
+printf(“the value of %d to the power %d is %d”,a,b,pow(a,b));
+}
+
+Output-
+
+enter the value of a=5
+enter the value of b=2
+the value of 5 to the power 2 is 25
+
+18. write a program to input the length of a square and calculate its area.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int length;
+printf(“enter the length of side of a square=”);
+scanf(“%d”,& length);
+printf(“\n the area of square is =%d”,length*length);
+}
+
+Output- 
+  
+enter the length of side of a square =6
+the area of square is =36
+
+19. write a program to take the length and breadth of a rectangle and print its area and perimeter.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float l,b, area ,perimeter;
+printf(“enter the length of rectangle=”);
+scanf(“%f”’,&l);
+printf(“enter the breadth of rectangle=”);
+scanf(“%f”’,&b);
+area=l*b;
+perimeter=2*(l+b);
+printf(“\n the area of rectangle is=%f
+          \n perimeter of rectangle is =%f”,area, perimeter);
+}
+Output-
+
+enter the length of rectangle =7
+enter the breadth of rectangle=3
+the area of rectangle is=21
+perimeter of rectangle is =20
+
+20. write a program to input length of base and height of a triangle and calculate its area.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float h,b,area;
+printf(“enter the length of height of a triangle =”);
+scanf(“%d”,&h);
+printf(“\n enter the length of breath of triangle=”);
+scanf(“%d”,&b);
+area=(“\n the area of triangle is =%d”,area);
+}
+
+Output-
+
+enter the length of height of a triangle=3
+enter the length of breath of triangle=4
+the area of triangle is =6
+
+21. write a program to input the diameter of the circle, calculate area and circumference.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float d,r;
+printf(“enter diameter=”);
+scanf(“%f”,&d);
+r=d/2;
+float a,c;
+a=3.14*(r*r);
+c=2*3.14*r;
+printf(“\n the area circle is =%f”,a);
+printf(“\n the circumference of circle is %f”,c);
+}
+
+Output-
+
+enter diameter is =50
+the area circle is =1962.5
+the circumference of circle is 157
+
+22. write a program to input principal,rate and time ,calculate simple interest and compound interest.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float si,p,r,t;
+printf(“enter the principal amount=”);
+scanf(“%f”,&p);
+printf(“\n enter the rate of interest=”);
+scanf(“%f”,&r);
+printf(“\n enter the time (years)=”);
+scanf(“%f”,t);
+si=(p*r*t)/100;
+ci=(p*pow(1+(r/100)),t)-p;
+printf(“\n ci =%f”,ci);
+}
+Output-
+enter the principle amount=500
+enter the rate of interest=15
+enter the time(years)=5
+si=505.68
+ci=375
+
+23. write a program to input length , height of a cuboid calculate its value total surface area and length of diago 
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float l,w,h,tsa,volume,d;
+printf(“enter the length of cuboid=”);
+scanf(“%d”,&l);
+printf(“\n enter the width of cuboid=”);
+scanf(“%d”,&w);
+printf(“\n enter the height of cuboid=”);
+scanf(“%d”,&h);
+tsa=2*(l*w)+(l*h)+(w*h);
+volume = l*w*h;
+printf(“\n volume =%d”,volume);
+printf(“\n tsa =%d”,\n diagonal=%d’’,tsa,d);
+}
+
+Output-
+enter the length of cuboid=5
+enter the width of cuboid=7
+enter the height of cuboid=4
+volume=140
+tsa=160
+diagonal=949
+
+24. write a program to input the length of a simple pendulum , calculate its time period and frequency.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float l,t,g,f;
+g=9.8;
+printf(“enter the length of pendulum=”);
+scanf(“%f”,&l);
+t=(2*3.14)*sqrt(l/er);
+f=1/t;
+printf(“\n time period=%f\n frequency=%f”,t,f);
+}
+
+Output-
+
+enter the length of pendulum=5
+time period=4.49
+frequency=0.223
+
+25. write a program to input length of hypotenuse & perpendicular of a right angle triangle , calculate length of its base.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float lh,h,b;
+printf(“enter the length of hypotenuse=”);
+scanf(“%f”,&lh);
+printf(“\n enter the height=”);
+scanf(“%f”,&h);
+printf(“\n base=%f”,b);
+}
+Output-
+
+enter the length of hypotenuse=8
+enter the height=7
+base=3.87
+
+26. write a program to input initial velocity(v),acceleration(a)and time (t),calculate its final velocity and distance.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float v,u,a,t,s;
+printf(“enter the velocity(v)=”);
+scanf(“%f”,&v);
+printf(“enter the acceleration(a)=”);
+scanf(“%f”,&a);
+printf(“”enter the time (t)=);
+scanf(“%f”,&t);
+v=v+(a*t);
+s=(v*l)+(1/2)*a*(t*t);
+printf(“\n final velocity=%f”,v);
+printf(“\n distance 1%f”,s);
+}
+
+Output-
+
+enter the velocity(v)=2
+enter the acceleration(a)=4
+enter the time(t)=5
+final velocity =22
+
+27. write a program to input radius and height of a cylinder ,calculate its volume ,CSA ,and TSA,
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float r,h,csa,tsa;
+printf(“enter the radius=”);
+scanf(“%f”,&r);
+printf(“\n enter the height=”);
+scanf(“%f”,&h);
+csa=(2*(3.14)*r(h+r));
+tsa=2(3.14)*r(h+r);
+printf(“\n esa=%f\ntsa=%f”,csa,tsa);
+}
+
+Output-
+
+enter the radius=5
+enter the height =3
+csa=94.25
+tsa=251.33
+
+28. write a program to input of object and image from a spherical mirror , calculate its focal length 
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float f,v,u;
+printf(“enter the value of v=”);
+scanf(“%f”,&v);
+printf(“enter the value of u=”);
+scanf(“%f”,&u);
+f=(v*u)/(v+u);
+printf(“\n enter focal length is =%f”,f);
+}
+
+Output-
+
+enter the value of v=5
+enter the value of u=7
+focal length is =2.92
+
+29. write a program to input two numbers and swap three numbers using third values before and after swapping.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float a,b,c;
+printf(“enter the value of a=”);
+scanf(“%f”,&a);
+printf(“\n enter the value of b= ”);
+scanf(“%f”,&b);
+printf(“\n before swapping a=%f,b=%f”,a,b);
+c=a;
+a=b;
+printf(“\n after swapping a=%f,b=%f”,a,b);
+}
+
+Output-
+enter the value of a=5
+enter the value of b=6
+before swapping a=5,b=6
+after swapping a=6,b=5
+
+30.write a program to input two numbers and swap these numbers without using a third variable. Also print the values before and after swapping .
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float a,b;
+printf(“enter the value of a=”);
+scanf(“%f”,&a);
+printf(“\n enter the value of b=”);
+scanf(“%f”,&b);
+printf(“\n before swapping a=%f,b=%f”,a,b);
+a=a+b;
+b=a-b;
+a=a-b;
+printf(“\n after swapping a=%f,b=%f ”,a,b);
+}
+
+Output-
+enter the value  a=5
+enter the value b=10
+before swapping a=5,b=10
+after swapping a=10,b=5
+
+31. write a program to input a number and check its equal to 50r not.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a;
+printf(“enter a number =”);
+scanf(“%d”&a);
+if(a==5)
+{
+printf(“\n %d is equal”,p);
+}
+else
+{
+printf(“\n %d is not equal to 5”,a);
+}
+}
+
+Output-
+
+enter a number =5
+5 is equal to 5
+
+32. write a program to input the age of a person and check if he is a voter or not.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a;
+printf(“enter your age=”);
+scanf(“%d”&a);
+if(a>=18)
+{
+printf(“\n you are a voter”);
+}
+else
+{
+printf(“\n you are not a voter”);
+}
+}
+
+Output-
+enter your age =18
+you are a voter
+
+33. write a program to input a number and check whether it is more than 10 and less than equal 1 to 20.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a;
+printf(“enter a number=”);
+scanf(“%d”,&n);
+if(a>10 && a<=20)
+{
+printf(“\n %d is more than 10 and less than equal to 20”,a);
+}
+else
+{
+printf(“\n %d is not more than 10 and not less than equal to 20”,a);
+}
+}
+
+Output-
+enter a number =15
+15 is more than 10 and less than equal 1 to 20
+
+34. write a program to input a number and check whether it is more than 50 or less than 10.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a;
+printf(“enter a number =”);
+scanf(“%d”,&a);
+if(a>50 // a<10);
+{
+printf(“\n %d is more than 50 or less than 10”,a);
+}
+else
+{
+printf(“\n %d is not more than 50 or not less than 10”,a);
+}
+}
+
+Output-
+enter a number =67
+67 is more than 50 or less than 10
+
+35. write a program to input a number and check it is even or odd.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a;
+printf(“enter a number =”);
+scanf(“%d”,&a);
+if(a%2==0);
+{
+printf(“\n %d is even number”);
+}
+else
+{
+printf(“\n %d is odd number”);
+}
+}
+
+Output-
+enter a number =6
+6 is even number
+
+36. write a program to input a number and check if it is multiple of 6 or not.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a;
+printf(“enter a number=”);
+scanf(“%d”,&a);
+if(a%6==0)
+{
+printf(“\n %d is a multiple of 6”,a);
+}
+else
+{
+printf(“\n %d is not multiple of 6”,a);
+}
+}
+Output-
+enter a number =70
+70 is not a multiple
+
+37. write a program to input a number and check if it is a factor of 20 or not.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+printf(“enter a number =”);
+scanf(“%d”,&a);
+if(20%a==0)
+{
+printf(“\n %d is the factor of 20”,a);
+}
+else
+{
+printf(“\n %d is not factor of20”,a);
+}
+}
+
+Output-
+enter a number =4
+4 is the factor of 20
+
+38. write a program to input a number and check whether it is multiple of 8 and leave the remainder 4 where divided by 6.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+printf(“enter a number=”);
+scanf(“%d”,&a);
+if (a%8==0 && a%6==4)
+{
+printf(“\n %d is multiple of 8 and leaves reminder 4 or dividing by 6”,a);
+}
+else
+{
+printf(“\n %d is not multiple of 8 and leaves reminder 4 or dividing by 6”,a);
+}
+}
+
+Output-
+enter a number =16 
+16 is multiple of 8 and leaves reminder 4 or dividing by6
+
+39. write a program to input a number and check whether it leaves remainder 5 where divided by 9 or leaves remainder 3 where divided by 8.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a;
+printf(“enter a number=”);
+scanf(“%d”&a);
+if(a%9==5 // a%8==3)
+{
+printf(“\n %d leaves remainder 5 where divided by 9 or leaves remainder 3 where divider by 8”,a);
+}
+else 
+{
+printf(“\n %d does not leaves remainder 5 where divided 9 or leaves remainder 3 where divider by 8”,a);
+}
+}
+
+Output-
+enter a number =86
+86 leaves remainder 5 where divided 9 or leaves remainder 3 where divider by 8
+
+41. write a program to input length of three sides of triangle and check triangle for position is possible or not the formation is only possible if sum of two side is always greater than third 
+
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+ {
+    float a, b, c;
+
+    printf("\n Enter the lengths of three sides of the triangle: ");
+    printf("\n Side 1: ");
+    scanf("%f", &a);
+    printf("\n Side 2: ");
+    scanf("%f", &b);
+    printf("\n Side 3: ");
+    scanf("%f", &c);
+
+    if ((a + b > c) && (b + c > a) && (c + a > b)) 
+    {
+        printf("\n Triangle formation is possible.");
+    } 
+    else
+     {
+        printf("\n Triangle formation is not possible.");
+     }
+}
+
+Output - 
+Enter the length of three sides of the triangle :
+Side 1 = 5
+Side 2 = 3
+Side 3 = 2
+Triangle formation is not possible 
+
+42.  WAP to input length of three sides of triangle and check triangle formation is possible or not. Then check if it is an equilateral triangle , isosceles triangle or scalene triangle.
+
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+    int a, b, c;
+
+ 
+    printf("\n Enter the length of side a: ");
+    scanf("%d", &a);
+    printf("\n Enter the length of side b: ");
+    scanf("%d", &b);
+    printf("\n Enter the length of side c: ");
+    scanf("%d", &c);
+
+ 
+    if ((a + b > c) && (b + c > a) && (c + a > b))
+    {
+        printf("\n Triangle formation is possible");
+
+       
+        if (a == b && b == c)
+        {
+            printf("\n It is an Equilateral Triangle.");
+        }
+        
+        else if (a == b || b == c || c == a)
+        {
+            printf("\n It is an Isosceles Triangle.");
+        }
+        // If no sides are equal, it is a Scalene Triangle
+        else
+        {
+            printf("\n It is a Scalene Triangle.");
+        }
+    }
+    else
+    {
+        printf("\n Triangle formation is not possible.");
+    }
+}
+
+Output - 
+Enter the length of side a = 4
+Enter the length of side b = 2
+Enter the length of side = 3
+
+Triangle formation is possible 
+It is a scalene triangle
+
+
+43.  WAP to input length of three sides of triangle and check triangle formation is possible or not. Then check if it is a right angle triangle or not. 
+
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+    int a, b, c, max, x, y;
+
+    printf("\n Enter the length of side a: ");
+    scanf("%d", &a);
+    printf("\n Enter the length of side b: ");
+    scanf("%d", &b);
+    printf("\n Enter the length of side c: ");
+    scanf("%d", &c);
+
+    if ((a + b > c) && (b + c > a) && (c + a > b))
+    {
+        printf("\n Triangle formation is possible.");
+
+        if (a > b && a > c)
+         {
+            max = a;
+            x = b;
+            y = c;
+        }
+        else if (b > a && b > c) 
+        {
+            max = b;
+            x = a;
+            y = c;
+        }
+        else
+         {
+            max = c;
+            x = a;
+            y = b;
+        }
+
+        if (max * max == (x * x + y * y))
+        {
+            printf("\n It is a Right-Angled Triangle.");
+        }
+        else
+        {
+            printf("\n It is not a Right-Angled Triangle.");
+        }
+    }
+    else
+    {
+        printf("\n Triangle formation is not possible.");
+    }
+}
+
+Output - 
+Enter the length of side a = 2
+Enter the length of side b = 2
+Enter the length of side = 3
+
+Triangle formation is possible
+It is not a right angled triangle
+
+
+44.  WAP to input three angles of the triangle . Check triangle formation is possible or not . Triangle formation is possible if the sum of three angles is 180 degrees and each angle should be more than 0 degree. 
+
+#include <stdio.h>
+#include<conio.h>
+int main()
+ {
+    int angle1, angle2, angle3, sum;
+    printf("Enter the three angles of the triangle:\n");
+    scanf("%d %d %d", angle 1, &angle2, &angle3);
+    sum = angle1 + angle2 + angle3;
+    if (sum == 180 && angle1 > 0 && angle2 > 0 && angle3 > 0)
+ {
+        printf("Triangle formation is possible.\n");
+    } else {
+        printf("Triangle formation is not possible.\n");
+    }
+}
+
+Output - 
+Enter the three angles of the triangle = 2
+4
+6
+Triangle formation is not possible
+
+
+45.  WAP to input a year and check if it is a leap year or not. 
+
+#include <stdio.h>
+#include<conio.h>
+void main()
+ {
+    int year;
+    printf("Enter a year: ");
+    scanf("%d", &year);
+    if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+        printf("%d is a leap year.\n", year);
+    } else {
+        printf("%d is not a leap year.\n", year);
+    }
+
+}
+
+Output - 
+Enter a year = 4
+4 is  a leap year 
+
+46.  WAP to input 2 numbers and print a greater number.
+
+#include <stdio.h>
+#include<conio.h>
+void main() {
+    int num1, num2;
+    printf("Enter two numbers:\n");
+    scanf("%d %d", &num1, &num 2);
+    if (num1 > num2)
+ {
+        printf("%d is the greatest number.\n", num1);
+    } 
+else if (num2 > num1)
+ {
+        printf("%d is the greatest number.\n", num2);
+    }
+ else
+ {
+        printf("Both numbers are equal.\n");
+    }
+}
+
+Output - 
+Enter the two numbers = 
+4
+3
+4 is the greatest number 
+
+47.  WAP to input 2 numbers and print smaller numbers. 
+
+#include <stdio.h>
+#include<conio.h>
+void main()
+ {
+    int num1, num 2; 
+    printf("Enter two numbers:\n");
+    scanf("%d %d", &num1, &num 2);
+    if (num1 < num2)
+ {
+        printf("%d is the smaller number.\n", num1);
+    }
+ else if (num2 < num1)
+ {
+        printf("%d is the smaller number.\n", num2);
+    }
+ else
+ {
+        printf("Both numbers are equal.\n");
+    }
+}
+
+Output - 
+Enter two numbers = 
+5
+6
+5 is the smaller number 
+
+48.  WAP to input 3 numbers and print the largest number .
+
+#include <stdio.h>
+#include<conio.h>
+void main()
+ {
+    int num1, num2, num3;
+    printf("Enter three numbers:\n");
+    scanf("%d %d %d", &num1, &num 2, &num 3);
+    if (num1 >= num2 && num1 >= num3)
+ {
+        printf("%d is the largest number.\n", num1);
+    }
+ else if (num2 >= num1 && num2 >= num3)
+ {
+        printf("%d is the largest number.\n", num2);
+    }
+ else
+ {
+        printf("%d is the largest number.\n", num3);
+    }
+}
+ 
+Output - 
+Enter three numbers =  
+4
+3
+2
+4 is the largest number 
+
+49.  WAP to input 3 numbers and print the smallest number . 
+
+#include <stdio.h>
+#include<conio.h>
+void main()
+ {
+    int num1, num2, num3;
+    printf("Enter three numbers:\n");
+    scanf("%d %d %d", &num1, &num 2, &num 3);
+    if (num1 <= num2 && num1 <= num3)
+ {
+        printf("%d is the smallest number.\n", num1);
+    }
+ else if (num2 <= num1 && num2 <= num3)
+ {
+        printf("%d is the smallest number.\n", num2);
+    } 
+else
+ {
+        printf("%d is the smallest number.\n", num3);
+  }
+}
+
+Output - 
+Enter three numbers = 
+1
+7
+5
+1 is the smallest number 
+
+50.  WAP to input 2 numbers and print in ascending order. 
+
+#include <stdio.h>
+#include<conio.h>
+void main()
+ {
+int num1, num2;
+    printf("Enter two numbers:\n");
+    scanf("%d %d", &num1, &num 2);
+    if (num1 < num2)
+ {
+        printf("Ascending order: %d, %d\n", num1, num2);
+    }
+ else 
+{
+        printf("Ascending order: %d, %d\n", num2, num1);
+    }
+
+}
+
+Output - 
+Enter two numbers = 
+3
+4
+Ascending order= 3,4 
+
+51.  WAP to input Two numbers and print in descending order.
+#include <stdio.h>
+#include<conio.h>
+int main()
+ {
+    int a,b;
+printf("Enter two numbers:");
+scanf("%d %d", &a, &b);
+if (a > b)
+{
+printf("Descending order: %d, %d\n",a,b);
+} 
+else
+ {
+printf("Descending order: %d, %d\n",b,a);
+}
+}
+Output- 
+Enter two number: 5
+			     9
+Descending order: 9 , 5
+
+52. WAP to input three numbers and print in descending order.
+#include <stdio.h>
+#include<conio.h>
+int main()
+ {
+int a,b,c;
+printf("Enter three numbers:");
+scanf("%d %d %d", &a,&b,&c);
+if (a <= b && a <= c)
+ {
+if (b <= c)
+ {
+printf("Ascending order: %d, %d, %d\n", a, b, c);
+} 
+else
+ {
+printf("Ascending order: %d, %d, %d\n", a, c, b);
+}
+} 
+else if (b <= a && b <= c)
+ {
+if (a <= c)
+ {
+printf("Ascending order: %d, %d, %d\n", b, a, c);
+}
+ else
+ {
+printf("Ascending order: %d, %d, %d\n", b, c, a);
+}
+}
+ else
+ {
+if (a <= b)
+ {
+printf("Ascending order: %d, %d, %d\n", c, a, b);
+} 
+else
+ {
+printf("Ascending order: %d, %d, %d\n", c, b, a);
+}
+}
+}
+Output-
+
+enter a=56
+enter b=43
+enter c=21
+order =21,43,56
+
+53. write a program to input three numbers and print in descending order.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,c;
+printf(“enter a,b,c=”);
+scanf(“%d %d %d”,&a,&b,&c);
+if(a>b && a>c)
+{
+if(b>c)
+{
+printf(“\n order =%d,%d,%d”,a,b,c);
+}
+else
+{
+printf(“\n order =%d,%d,%d”,a,b,c);
+}
+}
+else
+if(b>a && b>c)
+if(a>c)
+{
+printf(“\n order =%d,%d,%d”,b,a,c);
+}
+else
+{
+printf(“\n order =%d,%d,%d,”b,c,a);
+}
+}
+else
+{
+if(a>b)
+{
+printf(“\n order = %d,%d,%d”,c,a,b);
+}
+else
+{
+printf(“\n order =%d,%d,%d”,c,b,a);
+}
+}
+}
+
+Output-
+
+enter a=8
+enter b=3
+enter c=2
+order =8,3,2
+
+54. find in library in calculated as follows 
+(1)  for first 10 days=0 par day
+(2) for next 10 days=1 per day
+(3) for next 25 days=3 per day
+(4) above 45 days =5 per day 
+write a program to input the number of days and calculate the fine. 
+
+#include <stdio.h>
+#include<conio.h>
+int main()
+ {
+int days, fine = 0;
+printf("Enter the number of days:\n");
+scanf("%d", &days);
+if (days <= 10) 
+{
+fine = 0;
+days
+}
+else if (days <= 20) 
+{
+fine = (days - 10) * 1;  
+}
+else if (days <= 45)
+ {
+fine = 10 + (days - 20) * 3;  
+}
+ else 
+{
+fine = 10 + 75 + (days - 45) * 5;  
+}
+printf(“Total fine: %d rupees\n", fine);
+}
+Output- 
+Enter the number of days : 4
+Total fine = 0 Rupees 
+
+55. write a program to input a character and check if it is a vowel or consonant.
+#include <stdio.h>
+#include<conio.h>
+int main() 
+{
+char ch;
+printf("Enter a character: ");
+scanf("%c", &ch);
+if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || 
+        ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') 
+{
+printf("%c is a vowel.\n", ch);
+} 
+else if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) 
+{
+printf("%c is a consonant.\n", ch);
+}
+ else
+ {
+printf("%c is not an alphabet character.\n", ch);
+}
+}
+Output- 
+Enter a character : 7
+7 Is not an alphabet character 
+
+56. write a program to input number of units ,calculate bill if meter charges is rs 100 for each customer || for the first 100 units =1/u, for next150 units 4/units, for next 400 units 9/units, above 650 units 15/units.
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+ {
+int units;
+float bill = 100;
+printf("Enter the number of units: ");
+scanf("%d", &units);
+if (units <= 100) 
+{
+bill = bill + units * 1;
+} 
+else if (units <= 250)
+{
+bill = bill + 100 * 1 + (units - 100) * 4;
+ } 
+else if (units <= 650) 
+{
+bill = bill +  100 * 1 + 150 * 4 + (units - 250) * 9; 
+} 
+else
+{
+bill = bill + 100 * 1 + 150 * 4 + 400 * 9 + (units - 650) * 15; 
+}
+printf("Your total electricity bill is: Rs. %.2f\n", bill);
+}
+Output- 
+Enter the number of units: 4
+Your total electricity bill is: RS 104.00
+
+57. write a program to input distance and calculate taxi fare.
+
+Output-
+Enter the distance traveled (in KM) =5
+Your total taxi fare is =RS. 100.00
+
+58. write a program to input the number of days and type of room (a for ac and n for non-ac). calculate total charges if room service charge is 50perday for each type of room.
+
+Output-
+Enter the number of days stayed = 5
+Enter room type (a for A/c , n for Non A/c)= a
+Your total hotel charges are = RS 37500.00(include 50% room service charge ) 
+
+59. write a program to input the monthly income of an employee and calculate income tax if 2% of income tax will be added if income tax is more than 50000.
+
+Output-
+Enter your monthly income= 50000
+Your total annual income tax is = Rs. 50000.00
+
+60. write a program to input amount and calculate discount and also calculate final amount to be paid.
+
+Output-
+Enter 
+
+61. write a menu driven program to input choice and print the following. 
+(1)if choice 1 print BCA
+(2)if choice 2 print MCA
+(3)if choice 3 print MBA 
+also print error msg for each wrong choice.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int ch;
+printf(“\n enter 1 for BCA 
+           \n enter 2 for MCA
+            \n enter 3 for MBA
+              \n enter choice = ”);
+scanf(“%d”,&ch);
+swich(ch)
+{
+case(1):
+printf(“\n BCA”);
+break;
+case(2):
+printf(“\n MCA”);
+break;
+case(3):
+printf(“\n MBA”);
+break;
+default:
+printf(“\n Wrong Choice , Try again … ”);
+}
+}
+
+output-
+enter 1 for BCA 
+enter 2 for MCA
+enter 3 for MBA
+enter choice = 5
+Wrong Choice , Try again…
+
+62.  Write a menu driven program to input a choice and print the following.
+ choice 1: print bundelkhand 
+  case 2: print university
+
+#include <stdio.h>
+#include <conio.h>
+Int  main()
+{
+int n;
+printf("Enter a choice\n1 to print Bundelkhand \n2 to print University\nEnter NOW:  ");
+scanf("%d", &n);
+switch (n)
+{
+case 1:
+printf("\nBundelkhand");
+break;
+case 2:
+printf("\nUniversity");
+break;
+default:
+printf("Wrong choice");
+break;
+}
+}
+Output- 
+Enter a choice
+1 to print Bundelkhand 
+2 to print University
+Enter now: 3
+Wrong choice 
+
+63. Write a menu driven program to input a side of square and a choice
+1 calculate and print area of square,2 print perimeter of square and wrong choice.
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int ch,a,ar,pr;
+printf("\n Enter 1 for area \n Enter 2 for perimeter ");
+printf("\n Enter your choice = ");
+scanf("%d",&ch);
+printf("\n Enter side of square=");
+scanf("%d",&a);
+switch (ch)
+{
+case 1:
+ar=a*a;
+printf("\n area=%d",ar);
+break;
+case 2:
+pr=4*a;
+printf(“\n perimeter=%d ",pr);
+break; 
+default:
+printf(“\n ERROR :: Your choice is Wrong ");
+}
+}
+Output- 
+ Enter 1 for area 
+ Enter 2 for perimeter
+Enter your choice = 3
+ERROR :: Your choice is Wrong
+
+64.  Write a menu driven program to input length and breadth of a rectangle and a choice is 1 calculate and print area of rectangle if choice is 2 calculate and print perimeter of rectangle also print error message for each wrong choice.
+
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+int main()
+{
+int ar,pari,a,b,ch;
+printf("\n Choice one case ");
+printf("\n case 1 calculate area of rectangle \n case 2 calulaate primiter of rectangle ");
+printf("\n Enter your choice = ");
+scanf("%d",&ch);
+printf("\n Enter a length= ");
+scanf("%d",&a);
+printf("\n Enter a brigth =");
+scanf("%d",&b);
+switch (ch)
+{
+case 1:
+ar=a*b;
+printf("\n %d is area of a rectangle ");
+break;
+case 2:
+pari=2*(a+b);
+printf("\n %d is a perimeter of a rectangle ");
+break;
+default:
+printf(“\n ERROR :: your choice is Wrong");
+}
+}
+Output- 
+Choice one case 
+case 1 calculate area of rectangle 
+case 2 ca;lculate perimeter of rectangle 
+Enter your choice = 5
+Enter a length =2
+Enter a breadth  =9
+ERROR:: your choice is wong
+
+65.  Write a menu driven to input two numbers and print a greater number without using if else.
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int a,b,c;
+printf("\n Enter Two number =");
+scanf("%d%d",&a,&b);
+c=a/b;
+switch (c)
+{
+case 0:
+printf("\n %d This is the gratest  number ",b);
+break;
+default:
+printf("\n %d This is the gratest number ",a);
+}
+}
+Output-
+Enter Two numbers =5
+4
+5 This is the greatest number 
+
+66.  Write a menu driven program to input a number and a choice if choice is 1 check number is even or odd if choice is 2 check number is buzz or not also print error message for each wrong choice.
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int a,b,ch;
+printf("\n\t ~~~ Choice One Case ~~~~");
+printf("\n Casse 1 for check number is Even and odd  \n Case 2 for check number is Buzz or not ");
+printf("\n Enter Choice = ");
+scanf("%d",&ch);
+printf("\n Enter first number =");
+scanf("%d",&a);
+switch (ch)
+{
+case 1:
+if (a%2==0)
+{
+printf("\n The number %d is Even",a);
+}
+else 
+{
+printf("\n The number %d is Odd ",a);
+}
+break;
+case 2:
+if (a % 7 == 0 || a % 10 == 7)
+{
+printf("\n %d is a Buzz Number.",a);
+} 
+else
+{
+printf("\n %d is not a Buzz Number.",a);
+}
+break;
+default:
+printf("\n ERROR :: Your choice is Wrong ...");
+}
+}
+Output-
+ ~~~ Choice One Case ~~~~
+Casse 1 for check number is Even and odd  
+ Case 2 for check number is Buzz or not 
+Enter choice = 6
+Enter first number = 3
+ERROR :: Your choice is Wrong…
+
+ 
+67. write a menu driven program to input an alphabet and print it as a vowel or consonant without using if else.
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+char ch;
+printf("\n Enter a alphabates =");\
+scanf("%c",&ch);
+switch (ch)
+{
+case 'a':
+printf("\n This is a vobiel :::");
+break;
+case 'e':
+printf("\n This is a vobiel :::");
+break;
+case 'i':
+printf("\n This is a vobiel :::");
+break;
+case'o':
+printf("\n This is a vobiel :::");
+break;
+case 'u':
+printf("\n This is a vobiel :::");
+break;
+case 'A' :
+printf("\n This is a vobiel :::");
+break;
+case 'E':
+printf("\n This is a vobiel :::");
+break;
+case 'I':
+printf("\n This is a vobiel :::");
+break;
+case 'O':
+printf("\n This is a vobiel :::");
+break;
+case 'U':
+printf("\n This is a vobiel :::");
+break;
+default:
+printf("\n Tihis is a consoaunt , not a vovil ");
+}
+}
+Output- 
+ Enter a alphabets = a
+This is a vowel :::
+
+68. Write a menu driven program to input two numbers and an operator if operator is + calculate sum of these numbers if operator is - subtract 2nd number from 1st number if operator is / divide 1st by 2nd if operator is * calculate product of numbers also print error message for wrong choice.
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int a,b,c,ans;
+printf("\n Enter the first number for using this menu =");
+scanf("%d",&a);
+printf("\n Enter the second number for using this menu =");
+scanf("%d",&b);
+printf("\n Choice one case ");
+printf("\n case 1 for sum  ");
+printf("\n case 2 for subtration ");
+printf("\n case 3 for divided  ");
+printf("\n case 4 for multiply  ");
+printf("\n Enter your choice = ");
+scanf("%d",&c);
+switch (c)
+{
+case 1:
+ans=a+b;
+printf("\n%d  is your sum value",ans);
+break;
+case 2:
+ans=a-b;
+printf("\n%d  is your subtration value",ans);
+break;
+case 3:
+ans=a/b;
+printf("\n %d  is your division value ",ans);
+break;
+case 4:
+ans=a*b;
+printf("\n %d  is your multiply value ",ans);
+break;
+default:
+printf("\n ERROR :: Your Choice is Wrong ");
+}
+}
+Output-
+Enter the first number for using this menu =6
+ Enter the second number for using this menu =4
+
+ Choice one case
+ case 1 for sum
+ case 2 for subtraction
+ case 3 for divided
+ case 4 for multiply
+ Enter your choice = 3
+
+ 1  is your division value
+
+69. Write a menu driven program to input a choice and check if choice is 1 input length of three sides of triangle and calculate area of triangle if choice is 2 input length of base and height of triangle calculate area of triangle. also print errors for each wrong choice.
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+ {
+int choice, area;
+float a, b, c;
+printf("Choose an option:\n");
+printf("1. Calculate area of triangle using three sides\n");
+printf("2. Calculate area of triangle using base and height\n");
+scanf("%d", &choice);
+printf("Enter the lengths of the three sides of the triangle:\n");
+scanf("%f %f %f", &a, &b, &c);
+switch (choice)
+{
+case 1:
+{
+if (a + b > c && a + c > b && b + c > a)
+{
+float s = (a + b + c) / 2; 
+area = sqrt(s * (s - a) * (s - b) * (s - c)); 
+printf("\n The area of the triangle is: %d", area);
+} 
+else
+{
+printf("Error: The lengths do not form a valid triangle.\n");
+}
+break;
+}
+case 2: 
+{
+float base, height;
+printf("Enter the base and height of the triangle:\n");
+scanf("%f %f”, &base, &height);
+area = 0.5 * base * height; 
+printf("The area of the triangle is: %d\n", area);
+break;
+}
+default:
+printf("Error: Invalid choice. Please select 1 or 2.\n");
+break;
+}
+}
+Output-
+Choose an option:
+1. Calculate area of triangle using three sides
+2. Calculate area of triangle using base and height
+6
+Enter the lengths of the three sides of the triangle:
+5
+2
+3
+Error: Invalid choice. Please select 1 or 2.
+
+70. Write a menu driven program to input a number and a choice if choice is 1 then increase the number by 20% if choice is 2 decrease the number to 60%.
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int a,ch;
+float b,c;
+printf("\n choice one case ");
+printf("\n case  1 \n case 2 ");
+printf("\n Enter your case =");
+scanf("%d",&ch);
+printf("\n Enter a number = ");
+scanf("%d",&a);
+switch (ch)
+{
+case 1:
+b=a*a*(20.0/100.0);
+printf("\n the value of B= %f",b);
+break;
+case 2:
+c=a*(60.0/100.0);
+printf("\n the value of C= %f",c);
+break;
+default:
+printf("\n ERROR :: Your choice is wrong ");
+}
+}
+Output-
+choice one case
+ case  1
+ case 2
+ Enter your case =5
+ Enter a number = 3
+ ERROR :: Your choice is wrong
+
+71. WAP to print the first five natural numbers .
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i,a;
+for ( i = 1; i <=5; i++)
+{
+a=i;
+printf("\n %d",a);
+}
+}
+Output-
+1
+2
+3
+4
+5
+
+72. WAP to print the first five whole numbers.
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i,a;
+for ( i = 0; i <5; i++)
+{
+a=i;
+printf("\n %d",a);
+}
+}
+Output-
+0
+1
+2
+3
+4
+
+73.  WAP to print first five perfect square number 
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i,a;
+for ( i = 0; i <5; i++)
+{
+a=i*i;
+printf("\n %d",a);
+}
+}
+Output- 
+0
+1
+4
+9
+16
+
+74. WAP to print the first five even numbers .
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i,a;
+for ( i = 1; i <=5 ; i++)
+{
+a=i+i;
+printf("\n %d",a);
+}
+}
+Output- 
+2
+4
+6
+8
+10
+
+75.  WAP to print the first five odd numbers .
+
+#include <stdio.h>
+#include<conio.h>
+int main() 
+{
+int i;
+for (i = 1; i <= 9; i =i+ 2) 
+{
+printf("%d ", i); 
+}
+}
+Output- 
+1
+3
+5
+7
+9
+
+76.  WAP to print first n natural number 
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int n, i,a;
+printf("Enter the value of n: ");
+scanf("%d", &n);
+for(i = 1; i <= n ; i++) 
+{
+a=i;
+printf("\n %d", a);
+}
+}
+Output- 
+Enter the value of n:4
+1
+2
+3
+4
+
+77. WAP to print first n whole numbers.
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i,a,n;
+printf("\n Enter the value n = ");
+scanf("%d",&n);
+for ( i = 0; i <n; i++)
+{
+a=i;
+printf("\n %d ",a);
+}
+}
+Output- 
+Enter the value of n: 5
+0
+1
+2
+3
+4
+
+78. WAP to print first n perfect square number
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i,a,n;
+printf("\n Enter the value n = ");
+scanf("%d",&n);
+for ( i = 0; i <n; i++)
+{
+a=i*i;
+printf("\n %d ",a);
+}
+}
+Output- 
+Enter the value of n: 3
+0
+1
+4
+
+79. WAP to print first n even numbers .
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i, n, a;
+printf("Enter the value of n: ");
+scanf("%d", &n);
+for ( i = 1; i <=n; i++)
+{
+a=i+i;
+printf("\n %d",a);
+}
+}
+Output- 
+Enter the value of n: 4
+2
+4
+6
+8
+
+80.  WAP to print the first n odd number .
+
+#include <stdio.h>
+#include<conio.h>
+int main() 
+{
+int i,n ;
+printf("Enter the value of n: ");
+scanf("%d", &n);
+for (i = 1; i <= n ; i =i+ 2) 
+{
+printf("%d ", i); 
+}
+}
+Output- 
+Enter the value of n: 4
+1
+3
+5
+7
+
+81. WAP to input a number and calculate the total number of digits .
+ For Eg.. (IF number is 275 , total number digit = 3. )
+
+#include <stdio.h>
+#include<conio.h>
+int main() 
+{
+int n, a, i;
+a=0;
+printf("Enter a number = ");
+scanf("%d", &n);
+for ( i = n; i> 0; i = i / 10)
+{
+a++; 
+}
+printf("\n Total number of digits: %d", a);
+}
+Output- 
+Enter a number = 21
+Total number of digits : 2
+
+82. WAP to input a number and calculate the sum of digits.
+for EX.. ( IF number is 45 , sum of digit = 4+5= 9 . )
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i,remender,sum ,n;
+printf("\n Enter the value of N= ");
+scanf("%d",&n);
+for ( i = n; i>0 ; i=i/10)
+{
+remender =i%10;
+sum=sum+remender;
+}
+printf("\n Sum of digit =%d",sum);
+}
+Output- 
+Enter the value of N= 45
+Sum of digit= 9
+
+83.  WAP to input a number, calculate sum of even digit and product of odd digit.
+ for ex (If number is 436 , sum of even digit = 4+6 =10 , total of odd digit =3 ). 
+
+#include <stdio.h> 
+#include<conio.h>
+int main()
+{
+int i, remender, sumEven ,productOdd, n;
+productOdd = 1;
+sumEven = 0;
+printf("\n Enter the value of N= ");
+scanf("%d", &n);
+for (i = n; i > 0; i = i / 10)
+{
+remender = i % 10; 
+if (remender%2==0)
+{
+sumEven=sumEven+remender;  
+} 
+else
+{
+productOdd = productOdd*remender; 
+}
+}
+printf("\n Sum of even digits = %d", sumEven);
+printf("\n Product of odd digits = %d", productOdd);
+}
+Output- 
+
+84.  WAP to input a number to calculate the sum of squares of each digit .
+ for ex( If number is 34 =sum=3^2+4^2= 25. )
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i,remender,sum ,n;
+printf("\n Enter the value of N= ");
+scanf("%d",&n);
+for ( i = n; i>0 ; i=i/10)
+{
+remender =i%10;
+sum=sum+remender*remender;
+}
+printf("\n Sum of digit =%d",sum);
+}
+Output- 
+
+85.  WAP a program to input a number and check if it is a neon number or not . a number is neon if sum of digits of square
+ the number equal to the =9 sum =9^2 = 81=8+1=9 
+
+#include <stdio.h>                     
+#include<conio.h>
+int main()
+{
+int n, i, sum , rem;
+sum = 0;
+printf("\n Enter a number= ");
+scanf("%d", &n);
+i = n * n;
+for (i ; i > 0; i= i/10)
+{
+rem = i % 10;  
+sum =sum + rem;         
+}
+if (sum == n)
+{
+printf("\n %d is a Neon Number.", n);
+} 
+else 
+{
+printf("\n %d is not a Neon Number.", n);
+}
+}
+Output- 
+
+86. Wap to input a number and check if it is an armstrong number or not . 
+a number is armstrong if the sum of power of each  digit ( Power = number of digits ) = number. 
+
+#include <stdio.h>
+#include<conio.h>
+#include <math.h> 
+
+int main() 
+{
+int n, remainder, result, digits,j,i;
+result=0;
+digits=0;
+printf("Enter a number: ");
+scanf("%d", &n);
+for (i = n; i > 0; i = i / 10) 
+{
+digits c++ ;
+}
+for (j = n ; j> 0 ; j= j/ 10)
+{
+remainder = j % 10;  
+result =result pow(remainder, digits); 
+}
+if (result == n)
+{
+printf("\n %d is an Armstrong number.", n);
+} 
+else 
+{
+printf("\n %d is not an Armstrong number.",n);}
+}
+Output- 
+
+87.  WAP to input a number and print the total number of factors of this number .
+ for ex- if number is 10 = total number of factors = 4. 
+
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+int n, i, count;
+count=0;
+printf("\n\t Enter a number: ");
+scanf("%d", &n);
+for (i = 1; i <= n; i++)
+{
+if (n % i == 0) 
+{
+count++; 
+}
+}
+printf("\n Total number of factors of %d = %d", n, count);
+}
+Output- 
+
+88.  WAP to input a number and check it is prime or composite .
+ a number is prime if it has only two factor 
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int n, i, count;
+count = 0;
+printf("\n\t Enter a number: ");
+scanf("%d", &n);
+for (i = 1; i <= n; i++)
+{
+if (n % i == 0) 
+{
+count++; 
+}
+}
+if (count == 2) 
+{
+printf("\n %d is a Prime number.", n);
+} 
+else
+{
+printf("\n %d is a Composite number.", n);
+}
+}
+Output- 
+
+89.  WAP to input a number and print only the factor of this number. for ex- if number is 8 = 1,2,4,8 
+
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+int n, i;
+printf("\n\t Enter a number: "); // \t, Tab lagane ke liye use kiya ja raha hai jisse output mein acha lage.....
+scanf("%d", &n);
+printf("\n Factors of %d are: ", n);
+for (i = 1; i <= n; i++)
+{
+if (n % i == 0) 
+{
+printf("%d ", i); 
+}
+}
+}
+Output- 
+
+90. wap to input a number and check it is perfect number or not a number if perfect sum of all factor excluding 
+the number = number itself. for ex- if the number is 6, sum of factor= 1+2+3=6.
+
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+int n, i, sum ;
+sum=0;
+printf("\n\t Enter a number: ");
+scanf("%d", &n);
+for (i = 1; i < n; i++) 
+{
+if (n % i == 0)
+{
+sum = sum+i;  
+}
+ }
+if (sum == n)
+{
+printf("\n%d is a Perfect Number.", n);
+} 
+else
+{
+printf("\n%d is not a Perfect Number.", n);
+}
+}
+Output-
+
+91. WAP to input a number and calculate the reverse of this number if the number is 25 and then reverse number is 52 .
+
+#include<stdio.h>
+#include<conio.h>
+int main ()
+{
+int n,rem,rev;
+rev=0;
+printf("\n Enter the number =");
+scanf("%d",&n);
+for ( n=n ; n>0; n=n/10)
+{
+rem=n%10;
+rev= rev * 10 + rem;
+}
+printf("\n Reversed number is: %d", rev);
+}
+Output- 
+
+92.  WAP to input a number and check it is Palindrome number or not a number is called 
+Palindrome of rivers of the number equal to the number itself for EX = 22.
+
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+int n,i, new,rev, rem;
+rev=0;
+printf("Enter a number: ");
+scanf("%d", &n);
+for (i=n; i > 0; i = i / 10)
+{
+rem = i % 10;         
+rev = rev * 10 + rem; 
+}
+if (n == rev)
+{
+printf( “\n%d is a Palindrome number.",n);
+} 
+else
+{
+printf("\n %d is not a Palindrome number.",n);
+}
+}
+Output- 
+….
+93.  WAP to input a number and calculate Factorial value of this number for ex if number of 4 Factorial = 1*2*3*4=24 .
+
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+int n, i, factorial;
+factorial=1;
+printf("\n\t Enter a number: ");
+scanf("%d", &n);
+if (n < 0) 
+{
+printf("\n Factorial of a negative number doesn't exist.");
+} 
+else 
+{
+for (i = 1; i <= n; i++) 
+{
+factorial = factorial*i;  
+}
+printf("Factorial of %d is: %d", n, factorial);
+}
+}
+Output- 
+…..
+94.  WAP to input a number and print factorial value of each digit of ex if the number is 35, factorial value of 5=120 , factorial value of 3=6. 
+
+#include <stdio.h>
+#include <conio.h>
+int main() 
+{
+int n , j, remainder, fact, i;
+printf("\n \t Enter a number: ");
+scanf("%d", &n);
+for (j=n; j > 0; j = j / 10) 
+{
+remainder = j % 10; 
+fact = 1;
+for (i = 1; i <= remainder; i++) 
+{
+fact = fact * i;
+}
+printf("\n Factorial of %d = %d", remainder, fact);
+}
+}
+Output- 
+……
+95.  WAP to input a number and calculate sum of Factorial value of each digit for ex if number is 35 sum of Factorial Value of digits =120+6 =126. 
+
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+int n, new, remainder, fact, i, sum ;
+sum=0;
+printf("\n Enter a number: ");
+scanf("%d", &n);
+new = n; 
+for (; n > 0; n = n / 10)
+{
+remainder = n % 10;  
+fact = 1; 
+for (i = 1; i <= remainder; i++) 
+{
+fact =fact* i;
+}
+sum =sum + fact;
+}
+printf("\n Sum of factorial values of digits of %d = %d", new, sum);
+}
+Output- 
+……
+96.  WAP to input a number and check it is special number or not a number is called special if some of factorial value of each digit equal to number 
+itself for ex = if number is 145 , sum =1!+2!+3!+4!5! = 145.
+
+#include <stdio.h>
+#include<conio.h>
+int main() 
+{
+int n, o, remainder, fact, sum , i;
+sum =0;
+printf("\nEnter a number: ");
+scanf("%d", &n);
+o = n;   // 'o' me 'n' ki value dal di 
+for (; n > 0; n = n / 10) 
+{
+remainder = n % 10;  
+fact = 1;
+for (i = 1; i <= remainder; i++) 
+{
+fact = fact * i;
+}
+sum = sum + fact;
+}
+if (sum == o) 
+{
+printf("\n%d is a special number.", o);
+} 
+else 
+{
+printf("\n%d is not a special number.", o);
+}
+}
+Output- 
+….
+
+97.  WAP to input a number and check it is magic number or not . a number is called magaic if sum of digits of number 
+until sum is morethen 9=1 for eg = if number is 649 , sum = 6+4+9=19=1+9=10=1+0=1. it is magic .
+
+#include <stdio.h>
+#include <conio.h>
+int main() 
+{
+int n, remainder, i, sum, o;
+printf("\n \t Enter a number: ");
+scanf("%d", &n);
+o = n;   
+for (i=n ; n > 9;) 
+{
+sum = 0;  
+for (i=n ; n > 0; n = n / 10) 
+{
+remainder = n % 10;  
+sum = sum + remainder;  
+}
+n = sum; 
+}
+if (n == 1) 
+{
+printf("\n %d is a magic number.\n", o);
+} 
+else 
+{
+printf("\n %d is not a magic number.\n", o);
+}
+} 
+Output-
+….
+
+98. /* WAP to input two number amd calculate lcm and hcf of these number .
+formula = first number / second number = lcm/hcf */
+
+#include <stdio.h>
+#include<conio.h>
+int main()
+ {
+int num1, num2, hcf , lcm, i;
+hcf=1;
+printf("\n Enter two numbers: ");
+scanf("%d %d", &num1, &num2);
+for (i = 1; i <= num1 && i <= num2; i++)
+{
+if (num1 % i == 0 && num2 % i == 0)
+{
+hcf = i;  
+}
+}
+lcm = (num1 * num2) / hcf;
+printf("\nHCF of %d and %d = %d", num1, num2, hcf);
+printf("\nLCM of %d and %d = %d", num1, num2, lcm);
+}
+
+Output-
+……
+
+99. WAP to input two numbers and print the factorial value of each number between these numbers .
+
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+int num1, num2, i, j, fact,t;
+printf("\n Enter two numbers (lower and upper limit): ");
+scanf("%d %d", &num1, &num 2);
+if (num1 > num2)
+{
+t= num1;
+num1 = num2;
+num2 = t;
+}
+fact = 1; 
+for (i = num1; i <= num2; i++)
+{
+for (j = 1; j <= i; j++)
+{
+fact = fact* j; 
+}
+printf("\n Factorial of %d = %d", i, fact);
+}
+}
+Output-
+……
+
+100. WAP to input two numbers and print all prime numbers between these numbers.
+
+#include <stdio.h>
+#include<conio.h>
+int main() 
+{
+int num1, num2, i, j, Prime,sp;
+printf("\n Enter two numbers (intervals): ");
+scanf("%d %d", &num1, &num 2);
+if (num1 > num2) 
+{
+sp = num1;
+num1 = num2;
+num2 = sp;
+}
+printf("\n Prime numbers between %d and %d are: ", num1, num2);
+for (i = num1; i <= num2; i++) 
+{
+if (i >= 2) 
+{
+Prime = 1; 
+for (j = 2; j <= i / 2; j++) 
+{
+if (i % j == 0) 
+{
+Prime = 0;
+}
+}
+if (Prime == 1) 
+{
+printf("%d ", i);
+}
+}
+}
+}
+
+Output-
+…..
+
+
+101. Write a program to print the following series- 1,2,3,4- - - - - - n terms.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n,a;
+printf(“\n enter a number=”);
+scanf(“%d”,&n);
+for(i=1; i<=n; i++)
+{
+a=i;
+printf(“%d,”,a);
+}
+}
+
+Output -
+enter a number=5
+1,2,3,4,5
+
+102.   Write a program to print following series-2,4,6,8- - - - - -n terms.
+
+#include<stdio.h
+#include<conio.h>
+void main()
+{
+int i,n,a;
+printf(“\n enter a number=”);
+scanf(“%d”,&n);
+for(i=1; i<=n; i++)
+{
+a=i+i;
+printf(“%d,”,a);
+}
+}
+
+Output-
+enter a number= 4
+
+103.  Write a program to print following series-1,3,5,7,9- - - - - - n terms.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n,a;
+printf(“\n enter a number=”);
+scanf(“%d”,&n);
+for(i=1; i<=n; i++)
+{
+a=2*i-1;
+printf(“%d,”,a);
+}
+}
+
+
+Output - 
+enter a number= 5
+1,3,5,7,9
+
+104. Write a program to print following series-1,4,9,16,25- - - - - -n terms.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n,a;
+printf(“\n enter a number=’);
+scanf(“%d”,&n);
+for(i=1; i<=n; i++)
+{
+a=i*i;
+printf(“%d,”,a);
+}
+}
+
+Output - 
+enter a number= 5
+1,4,9,16,25
+
+105.   Write a program to print the following series- 2,9,28,65 - - - - - - n terms.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n,a;
+printf(“\n enter a number=”);
+scanf(“%d”,&n);
+for(i=1; i<=n; i++)
+{
+a=i*i*i+1;
+printf(“%d,”,a);
+}
+}
+
+Output - 
+enter a number= 4
+2,9,28,65
+106.   Write a program to print the following series- 3,6,12,24 - - - - - n terms.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n,a,b;
+a=0;
+b=3;
+printf(“\n enter a number=”);
+scanf(“%d”,&n);
+for(i=1; i<=n; i++)
+{
+a=b;
+printf(“%d,”,a);
+b=b*2;
+}
+}
+
+Output - 
+enter a number= 4
+3,6,12,24
+
+107.   Write a program to print the following series- 5,15,45,135 - - - - -  n terms.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n,a,b; 
+a=0; 
+b=5;
+printf(“\n enter a number=”);
+scanf(“%d”,&n);
+for(i=1; i<=n; i++)
+{
+a=b;
+printf(“%d,”,a);
+b=b*3;
+}
+}
+
+Output - 
+enter a number = 4
+5,15,45,135
+
+108.   Write a program to print the following series- 1,4,7,10 - - - - - - n terms.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n,a,b;
+a=0; 
+b=1;
+printf(“\n enter  a number=”);
+scanf(“%d”,&n);
+for(i=1; i<=n; i++)
+{
+a=b;
+printf(“%d,”,a);
+b=b+3;
+}
+}
+
+Output - 
+enter a number = 4
+1,4,7,10
+
+109.    Write a program to print the following series- 8,14,20,26,32 - - - - - - n terms.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n,a,b;   
+a=0;
+b=8;             
+printf(“\n enter a number=”);
+scanf(“%d”,&n);
+for(i=1; i<=n; i++)
+{
+a=b;
+printf(“%d,”,a);
+b=b+6;
+}
+}
+
+Output - 
+enter a number = 5
+8,14,20,26,32
+
+110.  Write a program to print the following series- 7,15,23,31 - - - - - n terms.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n,a,b;
+a=0; 
+b=7;
+printf(“\n enter a number=”);
+scanf(“%d”,&n);
+for(i=1; i<=n; i++)
+{
+a=b;
+printf(“%d,”,a);
+b=b+8;
+}
+}
+
+Output - 
+enter a number = 4
+7,15,23,31
+
+111.   WAP to print fibonacci series - 0,1,1,2,3,5,8,13 - - - - - n 
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n,a,b,s;
+a=-1; 
+b=1;
+printf(“\n enter a number=”);
+scanf(“%d”,&n);
+for(i=1; i<=n; i++)
+{
+s=a+b;
+a=b;
+b=s;
+printf(“%d,”,s);
+}
+}
+
+Output - 
+enter a number = 7
+0,1,1,2,3,5,8
+
+112.   WAP to print tribonacci  series - 0,1,1,2,4,7,13,24 - - - - - n
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n,a,b,c,s;
+a=-1;
+b=1;
+c=0;
+printf("enter a number=");
+scanf("%d",&n);
+for(i=1; i<=n;i++)
+{
+    s=0;
+    s=a+b+c;
+    a=b;
+    b=c;
+    c=s;
+    printf("%d, ",s);
+}
+}
+
+
+Output - 
+enter a number = 8
+0,1,1,2,4,7,13,24
+
+113.    WAP to print non- Fibonacci series- 4,6,7,9,10,11,12 - - - -n terms
+
+#include<stdio.h>
+#include<conio.h.
+void main()
+{
+int i,n,a,b,s,j;
+a=-1;
+b=1;
+printf(“\n enter a number=”);
+scanf(“%d”,&n);
+for(i=1; i<=n; )
+{
+s=a+b;
+a=b;
+b=s;
+for(j=a+1; j<b; j++)
+{
+printf(“%d”,j);
+i++;
+if(i==n)
+break;
+}
+}
+}
+
+Output - 
+enter a number = 5
+4,6,7,9,10
+
+114.    WAP to print sum of following series - 1+2+3+4 - - - - n terms.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n,s;
+s=0;
+printf(“\n enter a number=”);
+scanf(“%d”,&n);
+for(i=1; i<=n; i++)
+{
+s=s+i;
+}
+printf(“sum=%d”,s);
+}
+
+Output - 
+enter a number = 4
+sum = 10
+
+115.   WAP to print sum of following series - 1+4+9+16  - - - - - n terms.
+
+#include <stdio.h>
+#include<conio.h>
+void main()
+ {
+    int n, i, sum ;
+    sum=0;
+    printf("\n Enter the number = ");
+    scanf("%d", &n);
+   for (i = 1; i <= n; i++)
+     {
+        sum = sum + (i * i); 
+    }
+    printf("\n Sum of the series 1^2 + 2^2 + 3^2 + ... + %d^2 is: %d", n, sum);
+}
+
+Output - 
+enter the number = 
+
+
+
+
+
+
+116.        WAP to print sum of following series - 1+4+7+10 - - - - n terms.
+
+ 
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n,s,a,b,c;
+a=1;
+b=3;
+s=0;
+printf(“\n enter the number of terms=”);
+scanf(“%d”,&n);
+for(i=0; i<n; i++)
+{
+c=a+i*b;
+s=s+c;
+}
+printf(“sum of the number of terms= %d”,s);
+}
+
+
+
+
+Output - 
+
+enter the number of terms = 6
+sum of the number of series = 51
+
+
+
+117.    WAP to print sum of following series - 5+9+13+17 - - - - - n terms.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n,s,a,d,t;
+a=5;
+d=4;
+s=0;
+printf(“\n enter the number of terms=”);
+scanf(“%d”,&n);
+for(i=0; i<n; i++)
+{
+t=a+(i*d);
+s=s+t;
+}
+printf(“ sum of the series 5+9+13+ - - - -for %d terms is =%d\n”,n,s);
+}
+
+Output - 
+
+enter the number of series = 5
+
+sum of the series 5+9+13+ - - - - for 5 terms is = 65
+
+
+
+
+
+118.   WAP to print sum of following series - 2+5+10+17 - - - -n terms.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int n,i,s,a,b;
+a=2;
+b=3;
+s=0;
+printf(“\n enter the number of terms =”);
+scanf(“%d”,&n);
+for(i=1; i<=n; i++)
+{
+s=s+a;
+a=a+b;
+b=b+2;
+}
+printf(“\n sum of the series 2+5+10+17+ - - - for %d terms is = %d” ,n,s);
+}
+
+
+
+Output - 
+
+enter the number of terms = 4
+
+ sum of the series 2+5+10+17+ - - - for 4 terms is =  34
+
+
+
+
+
+
+119.    WAP to print sum of following series - 7+26+63+124 - - - - n terms.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n,a,s;
+s=0;
+printf(“\n enter a number =”);
+scanf(“%d”,&n);
+for(i=1; i<=n; i++)
+{
+a=(i+1)(i+1)*(i+1)-1;
+s+s+a;
+}
+printf(“\n sum of the series = %d”,s);
+}
+Output - 
+
+enter a number = 4
+
+sum of the series = 220
+
+
+
+120.     WAP to print sum of following series - 3+6+12+24+48+ - - - - - -n terms.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n,s,a;
+a=3;
+s=0;
+printf(“\n enter the number of terms=”);
+scanf(“%d”,&n);
+for(i=1; i<=n; i++)
+{
+s=s+a;
+a=a*2;
+}
+printf(“\n sum of the series 3+6+12+24+ - - - - - for %d term= %d”,n,s);
+}
+Output - 
+
+enter the number of terms= 5
+
+sum of the series 3+6+12+24+ - - - - - for 5 term= 93
+
+
+
+
+
+121.     WAP to print sum of following series - 1/1+1/2+1/3+1/4+1/5+1+6+ - - - - - -n terms.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n,a,b;
+float s;
+a=1;
+b=0;
+s=0;
+printf(“\n enter a number = “);
+scanf(“%d”,&n);
+for(i=1; i<=n; i++)
+{
+a=a;
+b=b+1;
+s=s+(1.0*a)/b;
+}
+printf(“\n sum= %f”,s);
+}
+Output - 
+
+enter a number= 6
+
+sum = 2.450000
+
+
+
+122. WAP to print sum of the following series....
+                                            1/2+2/3+3/4+4/5+.......in terms.
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n,a,b;
+float s;
+a=0;
+b=1;
+s=0;
+printf(“\n enter a number= ”);
+scanf(“%d”,&n);
+for(i=1; i<=n; i++)
+{
+a=a+1;
+b=b+1;
+s=s(1.0*a)/b;
+}
+printf(“\n sum = %f ” ,s);
+}
+Output - 
+
+enter a number = 5
+
+sum = 3.550000
+
+
+123.  WAP to print sum of the following series....
+                                            1/2+3/4+5/6+7/8+.......n terms.
+
+#include<stdio.h>
+#include<conio.h>
+void main ()
+{
+int i,n,a,b;
+float s;
+a=-1;
+b=0;
+s=0;
+printf(“\n enter a number = “);
+scanf(“%d”,&n);
+for(i=1; i<=n; i++)
+{
+a=a+2;
+b=b+2;
+s=s+(1.0*a)/b;
+}
+printf(“\n sum = %f”, s);
+}
+Output- 
+
+enter a number = 5
+
+sum = 3.858333
+
+
+124. WAP to print sum of the following series....
+                                            5/7+9/13+13/19+7/12+.......n terms.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n,a,b;
+float s;
+a=1;
+b=1;
+s=0;
+printf(“\n enter a number= “);
+scanf(“%d”,&n);
+for(i=1; i<=n; i++)
+{
+a=a+4;
+b=b+6;
+s=s+(1.0*a)/b;
+}
+printf(“\n sum= %f”, s);
+}
+Output - 
+
+enter  a number= 4
+
+2.770804
+
+
+125. WAP to print sum of the following series....
+                                            9/14+15/22+21/30+27/38+.......n terms.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i, n,a,b;
+float s;
+a=3;
+b=6;
+s=0;
+printf(“\n enter a number = “);
+scanf(“%d”,&n);
+for(i=1; i<=n; i++)
+{
+a=a+6;
+b=b+8;
+s=s+(1.0*a)/b;
+}
+printf(“\n sum = %f”,s);
+}
+Output - 
+
+enter a number = 4
+
+sum = 2.735202
+
+
+126. Wap to print sum of the series 
+                                x+x^2+x^3+x^4+....... n terms.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n,a,p,x;
+float s;
+p=0;
+s=0;
+printf(“\n enter a N value and X value  =”);
+scanf(“%d%d”,&n,&x);
+for(i=1; i<=n; i++)
+{
+p=p+1;
+a=pow(x,p);
+s=s+a;
+}
+printf(“\n sum = %f”,s);
+}
+Output - 
+
+ enter a N value and X value= 4
+5
+
+sum= 780.000000
+
+
+127. Wap to print sum of the series 
+                                x^3+x^8+x^13+x^18+.....n terms .
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i, n,a,p,x;
+float s;
+p=-2;
+s=0;
+printf(“\n enter a N value and X value =”);
+scanf(“%d%d”,&n,&x);
+for(i=1; i<=n; i++)
+{
+p=p+5;
+a=pow(x,p);
+s=s+a;
+}
+printf(“\n sum= %f”, s);
+}
+Output - 
+
+enter a N value and X value= 5
+
+sum = 4362141696.000000
+
+
+128. Wap to print sum of the series....
+                                    x^1+x^4+x^9+x^16+...n terms .
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n,a,p,x;
+float s;
+p=1;
+s=0;
+printf(“\n enter a N value and X value =”);
+scanf(“%d%d”,&n,&x);
+for(i=1; i<=n; i++)
+{
+p=p*p;
+a=pow(x,p);
+s=s+a;
+}
+ printf(“\n sum = %f “, s);
+}
+Output - 
+enter a N value and X value= 7
+2
+
+sum= 14.000000
+
+
+
+
+
+129. Wap to print sum of the series ..
+                                    x^5/12+x^8/16+x^11+x^20+x^14/24+... n terms.
+
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void main()
+{
+int i,x,a,b,p,n;
+float s;
+s=0;
+p=2;
+b=8;
+printf(“\n enter a N value and X value = “);
+scanf(“%d%d”,&n,&x);
+for(i=1; i<=n; i++)
+{
+p=p+3; 
+b=b+4;
+a=pow(x,p);
+s=s+(1.0*a)/b;
+}
+printf(“\n sum= %.2f”,s);
+}
+Output - 
+
+enter a N value and X value= 2
+3
+
+sum= 430.31
+
+130.  Wap to print sum of the series ..
+                                    x^9/12+x^14/19+x^19/26+x^24/33+...n terms.
+
+#include<stdio.h>
+#include conio.h>
+#include<math.h>
+void main(0
+{
+int i,n,a,x,p,b;
+float s;
+s=0;
+p=4;
+b=5;
+printf(“\n enter a N value and X value = “);
+scanf(“%d%d”, &n,&x);
+for(i=1; i<=n; i++)
+{
+p=p+5;
+b=b+7;
+a=pow(x,p);
+s=s+(1.0*a)/b;
+}
+printf(“\n sum=%f”,s);
+}
+
+
+
+Output - 
+
+enter a N value and X value= 4
+3
+
+sum = 110031000.000000
+
+
+131.     WAP to print calculate of the series ..x^4/9-x^7/13+x^10/17-x^13/21+.....n terms
+                                   
+#include <stdio.h>
+#include <conio.h>
+#include<math.h>
+void main()
+{
+    int i,x,n,a,p,b;
+    float s;
+    p=1;
+    b=5;
+    printf("\n Enter a N number= ");
+    scanf("%d",&n);
+   printf("\n Enter a X value = ");
+   scanf("%d",&x);
+   for ( i = 1; i <=n; i++)
+   {
+    p=p+3;
+    b=b+4;
+    a=pow(x,p);
+    if (i%2==0)
+            {
+                s=s-(1.0*a)/b;
+            }
+            else
+            {
+                s=s+(1.0*a)/b;
+            }
+    
+   }
+   printf("\n sum= %.2f",s);
+}
+
+Output - 
+Enter a N number = 5
+Enter a X value = 3
+sum = 1649262.88
+
+
+132.    WAP to print the calculation of the series ..
+                                        x^7/11-x^12/18+x^17/25-x^22/32+.....n terms 
+
+#include <stdio.h>
+#include <conio.h>
+#include<math.h>
+void  main()
+{
+    int i,x,n,a,p,b;
+    float s;
+    p=2;
+    b=4;
+    printf("\n Enter a N number= ");
+    scanf("%d",&n);
+   printf("\n Enter a X value = ");
+   scanf("%d",&x);
+   for ( i = 1; i <=n; i++)
+   {
+    p=p+5;
+    b=b+7;
+    a=pow(x,p);
+    if (i%2==0)
+            {
+                s=s-(1.0*a)/b;
+            }
+            else
+            {
+                s=s+(1.0*a)/b;
+            }
+   }
+   printf("\n sum= %.2f",s);
+}
+
+Output - 
+enter a N number = 5
+enter a X number = 2
+sum= 3315435.25
+
+
+133.  WAP to print the calculation of the series ..
+                                        1- x^1/3+x^4/7-x^9/11+.....n terms 
+
+#include <stdio.h>
+#include <conio.h>
+#include<math.h>
+void  main()
+{
+    int i,x,n,a,p,b;
+    float s;
+    p=1;
+    b=3;
+    printf("\n Enter a N number= ");
+    scanf("%d",&n);
+   printf("\n Enter a X value = ");
+   scanf("%d",&x);
+   for ( i = 2; i <=n; i++)
+   {
+    p=p+3;
+    b=b+4;
+    a=pow(x,p);
+    if (i%2==0)
+            {
+                s=s-(1.0*a)/b;
+            }
+            else
+            {
+                s=s+(1.0*a)/b;
+            }
+   }
+   printf("\n sum= %.2f",s);
+}
+
+Output - 
+ 
+Enter a N number = 3
+Enter a X value = 2
+sum= 9.35
+
+
+134.    WAP to print the calculation of the series ..
+                                        1- x^2/9+x^5/12-x^10/15+.....n terms 
+
+#include <stdio.h>
+#include <conio.h>
+#include<math.h>
+void main()
+{
+int x,n,i,a,b,p;
+float s;
+s=1.0;
+b=6;
+printf("\n Enter x,n=");
+scanf("%d%d",&n,&x);
+for(i=1; i<n; i++)
+{
+p=i*i+1;
+b=b+3;
+a=pow(x,b);
+if(i%2==0)
+{
+s=s+(1.0*a)/b;
+}
+else
+{
+s=s-(1.0*a)/b;
+}
+}
+printf("\n sum =%f",s);
+}
+
+
+Output- 
+Enter x,n= 4
+2
+sum = 1899.088867
+135.   WAP to print the calculation of the series ..
+                                        x^5/3!-x^8/5!+x^11/7!-x^14/9!+.....n terms 
+
+#include <stdio.h>
+#include <conio.h>
+#include<math.h>
+void main()
+{
+    int i,n,a,p,b,j,x,f;
+    float s;
+    p=2;
+    b=1;
+    printf("\n Enter a N number= ");
+    scanf("%d",&n);
+   printf("\n Enter a X value = ");
+   scanf("%d",&x);
+   for ( i = 1; i <=n ; i++)
+   {
+        p=p+3;
+        b=b+2;
+        a=pow(x,p);
+        f=1;
+            for ( j = 1; j <=n; j++)
+            {
+                f=f*j;
+            }
+            if (i%2==0)
+            {
+                s=s-(1.0*a)/b;
+            }
+            else
+            {
+                s=s+(1.0*a)/b;
+            }
+    }
+                printf("\n Sum= %.2f",s);
+}
+
+Output- 
+
+Enter a N number = 5
+
+Enter a X number = 4
+
+sum = 165986048.00
+
+
+136.   WAP to print the calculation of the series ..
+           x^7/5!-x^15/9!+x^23/13!-x^31/17!.....n terms 
+
+#include <stdio.h>
+#include <conio.h>
+#include<math.h>
+void main()
+{
+    int i,n,a,p,b,j,x,f;
+    float s;
+    p=-1;
+    b=1;
+    printf("\n Enter a N number= ");
+    scanf("%d",&n);
+   printf("\n Enter a X value = ");
+   scanf("%d",&x);
+   for ( i = 1; i <=n ; i++)
+   {
+        p=p+8;
+        b=b+4;
+        a=pow(x,p);
+        f=1;
+            for ( j = 1; j <=i; j++)
+            {
+                f=f*j;
+            }
+            if (i%2==0)
+            {
+                s=s-(1.0*a)/b;
+            }
+            else
+            {
+                s=s+(1.0*a)/b;
+            }
+    }
+                printf("\n Sum= %.2f",s);
+}
+
+Output - 
+
+Enter a N number = 1
+
+Enter a X number = 6
+
+sum= 55987.20
+
+140.   WAP to print the calculation of the series ..
+ 1-(1-x^1)/4!+(1-x^1+x^4)/8!-(1-x^1+x^4-x^3)/16!+ .....n terms
+
+#include <stdio.h>
+#include <conio.h>
+#include<math.h>
+void main()
+{
+    int i,j,n,x,a,b,p,f,c;
+    float s;
+    s=1.0;
+    b=2;
+    printf("\n Enter a N number= ");
+    scanf("%d",&n);
+    printf("\n Enter a X value = ");
+    scanf("%d",&x);
+    for ( i = 1; i <n; i++)
+    {
+        p=i*i;
+        b=b*2;
+        a=pow(x,p);
+        for(j=1;j<=b;j++)
+        {
+            f=f*j;
+        }
+        if (i%2==0)
+        {
+            c=c+a;
+            s=s+(1.0*c)/b;
+        }
+        else
+        {
+            c=c-a;
+            s=s-(1.0*c)/b;
+        }
+    }
+    printf("\n sum = %.2f",s);
+}
+
+Output - 
+
+Enter  a N number = 3
+
+Enter a X number = 4
+
+sum = 33.50
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+141.   WAP to print patterns .......
+*
+**
+***
+****
+*****
+
+ #include <stdio.h>
+ #include <conio.h>
+ void main()
+ {
+    int i,j;
+    for ( i = 1; i <=5; i++)
+    {
+        for (j=1 ; j<=i ; j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    
+ }
+
+
+Output - 
+
+*
+**
+***
+****
+*****
+
+
+
+142.    WAP to print patterns .......
+1
+12
+123
+1234
+12345
+
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+    int i,j;
+    for ( i = 1; i <=5 ; i++)
+    {
+        for (j=1;j<=i;j++)
+        {
+            printf("%d",j);
+        }
+        printf("\n");
+    }
+    
+}
+Output - 
+
+1
+12
+123
+1234
+12345
+
+
+
+
+143.    WAP to print patterns .......
+1
+21
+321
+4321
+54321
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+ {
+    int i,j; 
+
+    for ( i = 1; i <= 5; i++) 
+    {
+        for ( j = i; j >=1; j--)
+         {
+            printf("%d", j);
+        }
+        printf("\n"); 
+    }
+}
+Output - 
+
+1
+21
+321
+4321
+54321
+
+
+
+
+144.   WAP to print patterns .......
+5
+56
+567
+5678
+56789
+
+
+#include <stdio.h>
+#include<conio.h>
+void main() 
+{
+    int i,j; 
+
+    for (i = 5; i <=9; i++) 
+    {
+        for ( j = 5; j <= i; j++)
+         {
+            printf("%d", j);
+        }
+        printf("\n");
+    }
+}
+Output- 
+
+5
+56
+567
+5678
+56789
+
+
+
+
+145.   WAP to print patterns .......
+9
+98
+987
+9876
+98765
+
+
+#include <stdio.h>
+#include<conio.h>
+void main() 
+{
+    int i,j ; 
+
+    for ( i = 9; i >= 5; i--) 
+    {
+        for ( j = 9; j >=i; j--)
+         {
+            printf("%d", j);
+        }
+        printf("\n");
+    }
+}
+Output - 
+
+9
+98
+987
+9876
+98765
+
+
+
+146.       WAP to follow the series..........
+     *
+    **
+   ***
+  ****
+ *****
+
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+    int i,j,k;
+    for ( i = 1; i <=5; i++)
+    {
+        for ( k =  1;k<=(5-i);k++)
+        {
+                printf(" ");
+        }
+            for (j=1;j<=i;j++)
+            {
+            printf("*");
+            }
+        printf("\n");
+    }
+    
+}
+Output - 
+
+              *
+            **
+          ***
+        ****
+      *****
+
+147.   WAP to follow the series..........
+        1
+      11
+    111
+  1111
+11111
+ 
+
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+    int i,j,k;
+    for ( i = 1; i <=5; i++)
+    {
+        for ( k =  1;k<=(5-i);k++)
+        {
+                printf(" ");
+        }
+            for (j=1;j<=i;j++)
+            {
+            printf("1");
+            }
+        printf("\n");
+    }
+    
+}
+Output - 
+
+         1
+       11
+     111
+   1111
+ 11111
+
+
+148.    WAP to follow the series..........
+        1
+      21
+    321
+  4321
+54321
+
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+    int i,j,k;
+    for ( i = 1; i <=5; i++)
+    {
+        for ( k =  1;k<=(5-i);k++)
+        {
+                printf(" ");
+        }
+            for (j=i;j>=1;j--)
+            {
+            printf("%d",j);
+            }
+        printf("\n");
+    }
+    
+}
+Output - 
+
+         1
+       21
+     321
+   4321
+ 54321
+
+
+149.    WAP to the following series..........
+        5
+      56
+    567
+  5678    
+56789 
+
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+    int i,j,k;
+    for ( i = 1; i <=5; i++)
+    {
+        for ( k =  1;k<=(5-i);k++)
+        {
+                printf(" ");
+        }
+            for (j=5;j<5+i;j++)
+            {
+            printf("%d",j);
+            }
+        printf("\n");
+    }
+    
+}
+Output - 
+
+            5
+          56
+        567
+      5678
+    56789
+
+
+150.   WAP to follow the series..........
+        9
+      98
+    987
+  9876
+98765
+
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+    int i,j,k;
+    for ( i = 1; i <=5; i++)
+    {
+        for ( k =  1;k<=(5-i);k++)
+        {
+                printf(" ");
+        }
+            for (j=9;j> 9-i;j--)
+            {
+            printf("%d",j);
+            }
+        printf("\n");
+    }
+    
+}
+Output - 
+
+           9
+         98
+       987
+     9876
+   98765
+
+151.- WAP to follow Patterns……….*
+*
+**
+***
+****
+***
+**
+*
+#include<stdio.h>
+#include<conio.h>
+     void main()
+{
+ int i,j;
+ for( i = 1 ; i <=7 ; i++)
+  { 
+  if (i<=4)
+  {
+  for ( j = 1; j <=i ; j++)
+  {
+
+   printf("*");
+   }
+   }
+   else
+  {
+   for ( j = 1; j <=(8-i); j++)
+   {
+   printf("*");
+    }
+    }
+    printf("\n");
+    }
+}
+Output ~
+*
+**
+***
+****
+***
+**
+*
+
+
+152.-WAP to follow Patterns……….
+ 1
+ 12
+ 123
+ 1234
+ 123
+ 12
+ 1
+ #include<stdio.h>
+#include<conio.h>
+       void main()
+{
+ int i,j,k;
+ for ( i = 1; i <= 7; i++)
+ {
+ if (i<=4)
+ {
+ for ( j = 1; j <=i ; j++)
+ {
+ printf("%d",j);
+  }
+  }
+  else
+   {
+   for ( j = 1; j <=(8-i); j++)
+    {
+    printf("%d",j);
+     }
+     }
+    printf("\n");
+    }
+}
+Output ~
+1
+12
+123
+1234 
+123
+12
+1
+
+
+153.- WAP to follow Patterns……….
+5
+56
+567
+5678
+56789
+5678
+567
+56
+5
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j;
+for(i=5;i<=13;i++)
+{
+if(i<=9)
+{
+ for(j=5;j<=i;j++)
+{
+printf("%d",j);
+}
+}
+ else
+{
+for(j=5;j<=18-i;j++)
+{
+printf("%d",j);
+}
+}
+printf("\n");
+}
+} 
+Output ~
+5
+56
+567
+5678
+56789
+5678
+567
+56
+5
+
+154.- WAP to follow Patterns……….
+9
+98
+987
+9876
+98765
+9876
+987
+98
+9
+           #include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j;
+for( i = 9; i >=1; i++)
+{
+if(i>=5)
+{
+for(j=9;j>=i;j--)
+{
+printf(“%d”,j);
+}
+}
+else
+{
+forj=9;j<=10-i;j--)
+{
+printf(“%d”,j);
+}
+}
+printf(“\n”);
+}
+}
+OUTPUT
+9
+98
+987
+9876
+98765
+9876
+987
+98
+9
+
+155.- WAP to follow Patterns……….
+    *
+   ***
+  *****
+ *******
+*********
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j,k;
+for ( i = 1 ; i<=5 ; i++)
+{
+for(j=4;j>=i;j--)
+{
+printf(" “);
+}
+for(k=1;k<=(2*i)-1;k++)
+{
+printf("*”);
+}
+printf("\n");
+}
+}
+
+Output 
+    *
+   ***
+  *****
+ *******
+*********
+
+156.- WAP to follow Patterns……….
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i,j;
+for ( i = 1; i <=9 ; i++)
+{
+if (i<=5)
+{
+for(j=1;j<=i;j++)
+{
+printf("*");
+}
+}
+else
+{
+for(j=1;j<=(10-i);j++)
+{
+printf("*");
+}   
+}
+printf("\n");
+}
+}
+OUTPUT 
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+
+157.- WAP to follow Patterns……….
+        1
+      21
+    321
+  4321
+54321
+  4321
+    321
+      21
+        1
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i,j,k;
+for ( i = 1; i <=9; i++)
+{
+if(i<=5)
+{
+for(k=1;k<=(5-i);k++)
+{
+printf(" ");
+}
+for(j=i;j>=1;j--)
+{
+printf("%d",j);
+}
+}
+else
+{
+for(k=1;k<=(i-5);k++)
+{
+printf(" ");
+}
+for(j=(10-i);j>=1;j--)
+{
+printf("%d",j);
+}
+}
+printf("\n");
+}
+}
+Output 
+        1
+      21
+    321
+  4321
+54321
+  4321
+    321
+      21
+        1
+
+158.- WAP to follow Patterns……….
+ *******
+   *****
+    ***   
+      *
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i,j,k;
+for ( i = 1; i <=4; i++)
+{
+for(k=1;k<=(i-1);k++)
+{
+printf(" ");
+}
+for(j=1;j<=(9-(2*i-1));j++)
+{
+printf("*");
+}
+printf("\n");
+}
+}
+Output 
+  *******
+   *****
+    ***   
+      *
+
+159.- WAP to follow Patterns……….
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
+#include <stdio.h>
+#include <conio.h>
+int main() 
+{
+int i, j, k;
+for (i = 1; i <= 7; i++) 
+{
+if (i <= 4)
+{
+for (k = 1; k <= 4 - i; k++) 
+{
+printf(" ");
+}
+for (j = 1; j <= 2 * i - 1; j++)
+{
+printf("*");
+}
+} 
+else 
+{
+for (k = 1; k <= i - 4; k++) 
+{
+printf(" ");
+}
+for (j = 1; j <= 2 * (8 - i) - 1; j++)
+{
+printf("*");
+}
+}
+printf("\n");
+}
+}
+Output 
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
+
+160.- WAP to follow Patterns……….
+       9
+     98
+    987
+  9876
+98765
+  8765
+    765
+      65
+        5
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i,j,k;
+for ( i=9; i>=1; i--)
+{
+if (i>=5)
+{
+for(k=1;k<=(i-5);k++)
+{
+printf(" ");
+}
+for(j=9;j>=i;j--)
+{
+printf("%d",j);
+}
+}
+else
+{
+for(k=1;k<=(5-i);k++)
+{
+printf(" ");
+}
+for(j=(i+4);j>=5;j--)
+{
+printf("%d",j);
+}
+}
+printf("\n");
+}
+}
+Output 
+       9
+     98
+    987
+  9876
+98765
+  8765
+    765
+      65
+        5
+
+161.- WAP to follow Patterns……….
+        *
+     ##
+    ***
+ ####
+ *****
+#include<stdio.h>
+#include<conio.h>
+int main() 
+{
+int  i,j,k;
+for ( i = 1; i <=5; i++)
+{
+for (j=1;j<=(5-i);j++)
+{
+printf(" ");
+}
+for (k=1;k<=i;k++) 
+{
+if (i % 2 == 0)
+{
+printf("#");
+} 
+else
+{
+printf("*");
+}
+}
+printf("\n");
+}
+}
+Output-
+        *
+     ##
+    ***
+ ####
+ *****
+
+162. WAP to follow Patterns……….
+       *
+     ###
+    *****
+ #######
+ **********
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j,k;
+for ( i = 1 ; i<=5 ; i++)
+{
+for(j=4;j>=i;j--)
+{
+printf(" ");
+}
+for(k=1;k<=(2*i)-1;k++)
+{
+if (i % 2 == 0)
+{
+printf("#");
+} 
+else
+{
+printf("*");
+}
+}
+printf("\n");
+}   
+}
+Output - 
+       *
+     ###
+    *****
+ #######
+ **********
+
+163. WAP to follow Patterns……….
+*          *
+**        **
+***     ***
+****   ****
+**********
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i,j,k,l;
+for ( i = 1; i <=5 ; i++)
+{
+for( j=1;j<=i;j++)
+{
+printf("*");
+}
+for( k=1;k<=(10-2*i);k++)
+{
+printf(" ");
+}
+for(l=1;l<=i;l++)
+{
+printf("*");
+}
+printf("\n");
+}   
+}
+Output-
+*          *
+**        **
+***     ***
+****   ****
+**********
+
+164.  WAP to follow Patterns……….
+**********
+****   ****
+***      ***
+**         **
+*            *
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i,j,k,l;
+for ( i = 5; i>=1 ; i--)
+{
+for( j=1;j<=i;j++)
+{
+printf("*");
+}
+for( k=1;k<=(10-2*i);k++)
+{
+printf(" ");
+}
+for(l=1;l<=i;l++)
+{
+printf("*");
+}
+printf("\n");
+}   
+}
+Output-
+**********
+****   ****
+***      ***
+**         **
+*            *
+
+165.  WAP to follow Patterns……….
+1               1
+12           21
+123        321
+1234    4321
+1234554321
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i,j,k,l;
+for ( i = 1; i <=5 ; i++)
+{
+for( j=1;j<=i;j++)
+{
+printf("%d",j);
+}
+for( k=1;k<=(10-2*i);k++)
+{
+printf(" ");
+}
+for(l=1;l<=i;l++)
+{
+printf("%d",l);
+ }
+printf("\n");
+}   
+}
+Output-
+1               1
+12           21
+123        321
+1234    4321
+1234554321
+
+166.  WAP to follow Patterns……….
+*        *
+ *      *
+  *    *
+   *  *
+    **
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i,j,k;
+for ( i = 1; i <=5 ; i++)
+{
+for( j = 1; j <=(i-1); j++)
+{
+printf(" ");
+}
+printf("*");
+for( k = 1; k <=(10-2*i); k++)
+{
+printf(" ");
+}
+printf("*");
+printf("\n");
+}
+}
+Output-
+*        *
+ *      *
+  *    *
+   *  *
+    **
+
+167.  WAP to follow Patterns……….
+*    *
+ *  *
+  **
+ *  *
+*    *
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i,k,j;
+for ( i = 1; i <=5; i++)
+{
+if(i<=3)
+{
+for(j=1;j<=(i-1);j++)
+{
+printf(" ");
+}
+printf("*");
+for(k=1;k<=(6-2*i);k++)
+{
+printf(" ");
+}
+printf("*");
+}
+else
+{
+for(j=1;j<=(5-i);j++)
+{
+printf(" ");
+}
+printf("*");
+for(k=1;k<=(2*i-6);k++)
+{
+printf(" ");
+}
+printf("*");
+}
+printf("\n");
+}    
+}
+Output- 
+*    *
+ *  *
+  **
+ *  *
+*    *
+
+168.  WAP to follow Patterns……….
+    55 
+   4  4
+  3    3
+ 2      2
+1        1
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i,j,k;
+for ( i = 5; i>=1 ; i--)
+{
+for( j = 1; j <=(i-1); j++)
+{
+printf(" ");
+}
+printf("%d",j);
+for( k = 1; k <=(10-2*i); k++)
+{
+printf(" ");
+}
+printf("%d",j);
+printf("\n");
+}
+}
+Output-
+    55 
+   4  4
+  3    3
+ 2      2
+1        1
+
+169.  WAP to follow Patterns……….
+    **
+   *  *
+  *    *
+ *      *
+*        *
+*        *
+ *      *
+  *    *
+   *  *
+    **
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i,j,k;
+for ( i = 5; i>=1 ; i--)
+{
+for( j = 1; j <=(i-1); j++)
+{
+printf(" ");
+}
+printf("*");
+for( k = 1; k <=(10-2*i); k++)
+{
+printf(" ");
+}
+printf("*");
+printf("\n");
+}
+for ( i = 1; i <=5 ; i++)
+{
+for( j = 1; j <=(i-1); j++)
+{
+printf(" ");
+}
+printf("*");
+for( k = 1; k <=(10-2*i); k++)
+{
+printf(" ");
+}
+printf("*");
+printf("\n");
+}
+}
+Output-
+    **
+   *  *
+  *    *
+ *      *
+*        *
+*        *
+ *      *
+  *    *
+   *  *
+    **
+
+170.  WAP to follow Patterns……….
+**********
+****  ****
+***     ***
+**        **
+*           *
+*           *
+**        **
+***      ***
+****   ****
+**********
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i,j,k,l;
+for ( i = 5; i>=1 ; i--)
+{
+for( j=1;j<=i;j++)
+{
+printf("*");
+}
+for( k=1;k<=(10-2*i);k++)
+{
+printf(" ");
+}
+for(l=1;l<=i;l++)
+{
+printf("*");
+}
+printf("\n");
+}   
+for ( i = 1; i <=5 ; i++)
+{
+for( j=1;j<=i;j++)
+{
+printf("*");
+}
+for( k=1;k<=(10-2*i);k++)
+{
+printf(" ");
+}
+for(l=1;l<=i;l++)
+{
+printf("*");
+}
+printf("\n");
+}   
+}
+Output- 
+**********
+****  ****
+***     ***
+**        **
+*           *
+*           *
+**        **
+***      ***
+****   ****
+**********
+
+171. WAP to print the first five natural numbers .
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i,a;
+i = 1;
+while(  i <=5 )
+{
+a=i;
+printf("\n %d",a);
+i++;
+}
+}
+Output-
+1
+2
+3
+4
+5
+
+172. WAP to print the first five whole numbers.
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i, a;
+i = 0;
+while (i < 5)
+{
+a = i;
+printf("\n %d", a);
+i++;
+    }
+}
+Output-
+0
+1
+2
+3
+4
+c
+173. WAP to print first five perfect square number 
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i, a;
+i = 0;
+while (i < 5)
+{
+a = i * i;
+printf("\n %d", a);
+i++;
+}
+}
+Output-
+0
+1
+4
+9
+16
+
+174. WAP to print the first five even numbers .
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i, a;
+i = 1;
+while (i <= 5)
+{
+a = i + i;
+printf("\n %d", a);
+i++;
+ }
+ }
+Output-
+2
+4
+6
+8
+10
+
+175. WAP to print the first five odd numbers .
+#include <stdio.h>
+#include<conio.h>
+int main() 
+{
+int i;
+i = 1;
+while (i <= 9) 
+{
+printf("%d, ", i); 
+i = i + 2;
+}
+}
+Output-
+1,3,5,7,9,
+
+176.  WAP to print first n natural numbers.
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int n, i, a;
+printf("Enter the value of n: ");
+scanf("%d", &n);
+i = 1;
+while(i <= n)
+{
+a = i;
+printf("\n %d", a);
+i++;
+}
+}
+Output- 
+Enter the value of n:6
+1
+2
+3
+4
+5
+6
+
+ 
+177. WAP to print first n whole numbers.
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i, a, n;
+printf("\n Enter the value n = ");
+scanf("%d", &n);
+i = 0;
+while (i <= n)
+{
+a = i;
+printf("\n %d ", a);
+i++;
+}
+}
+Output-
+Enter the value n = 5
+0
+1
+2
+3
+4
+5
+
+178. WAP to print first n perfect square numbers.
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i, a, n;
+printf("\n Enter the value n = ");
+scanf("%d", &n);   
+i = 0;
+while (i <= n)
+{
+a = i * i;
+printf("\n %d ", a);
+i++;
+}
+}
+Output-
+Enter the value n = 4
+0
+1
+4
+9
+16
+
+179. WAP to print first n even numbers .
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+int i, n, a;
+printf("Enter the value of n: ");
+scanf("%d", &n);
+i = 1;
+while (i <= n)
+{
+a = i + i;
+printf("\n %d", a);
+i++;
+}
+}
+Output-
+Enter the value of n: 7
+2
+4
+6
+8
+10
+12
+14
+
+180.  WAP to print the first n odd number .
+#include <stdio.h>
+#include <conio.h>
+int main() 
+{
+int i, n;
+printf("Enter the value of n: ");
+scanf("%d", &n);
+i = 1;
+while (i <= n) 
+{
+printf("%d ", i); 
+i = i + 2;
+}
+}
+Output- 
+Enter the value of n: 3
+1
+3
+5
+
+181. WAP to follow Series .... 
+         1,2,3,4,5.........n terms.
+#include <stdio.h>
+#include<conio.h> 
+
+int main() 
+{
+int n, i;
+printf("\n Enter the number of terms: ");
+scanf("%d", &n);
+printf("Series: ");
+i = 1;
+do
+{
+printf("%d , ", i);
+i++;
+} while(i <= n);        
+}
+Output-
+enter a number=5
+  Series: 1,2,3,4,5
+
+182.WAP to follow the Series ....
+                   2 ,  4 ,  6 ,  8 ,  10 …n terms .
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+int n, i, s;
+printf("/n Enter the number of terms: ");
+scanf("%d", &n);
+printf("Series: ");
+i = 1;
+do
+{
+s = 2 * i;
+printf("%d ,  ", s);
+i++;m
+} while(i <= n);
+}
+Output- 
+Enter the number of terms: 4
+	series: 2,4,6,8,
+
+183. WAP to follow Series....
+                        1 ,  3 ,  5 ,  7 ,  9 … n terms.
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+int n, i, s;
+printf("\n Enter the number of terms: ");
+scanf("%d", &n);
+printf("Series: ");
+i = 1;
+do
+{
+s = 2 * i - 1;
+printf("%d ,  ", s);
+i++;
+} while(i <= n);
+}
+Output-
+Enter the number of terms =4
+series= 1,3,5,7
+
+184.  WAP to follow Series....
+                          1,4,9,16,25.....n terms
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i, n, s;
+printf("\n Enter a number = ");
+scanf("%d", &n);
+printf("Series: ");
+i = 1;
+do
+{
+s = i * i; 
+printf("%d , ", s);
+i++;
+} while(i <= n);    
+}
+Output-
+Enter a number= 6
+series= 1,4,9,16,25,36, 
+
+185. Wap to follow Series.....
+                            2,9,28,64...n terms
+#include<stdio.h>
+#include<conio.h>
+int main ()
+{
+int i, n, s;
+printf("\n Enter a number =");
+scanf("%d", &n);
+printf(" series :");
+i = 1;
+do
+{
+s = i * i * i + 1;
+printf("%d , ", s);
+i++;
+} while(i <= n);
+}
+Output-
+Enter a number = 4
+series= 2,9,28,64,
+
+186.  WAP to follow Series....
+                            3,6,12,24....n terms .
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+int i, n, s, k;
+s = 3;
+printf("\n Enter the number= ");
+scanf("%d", &n);
+printf("Series: ");
+i = 1;
+do
+{
+k = s;
+printf("%d, ", s);
+s = s * 2;
+i++;
+} while (i <= n);
+}
+Output-
+Enter a number= 4
+series= 3,6,12,24,
+
+187. WAP to follow Series.... 
+                            5,15,45,105 .... n terms.
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i, n, a, b;
+a = 0;
+b = 5;
+printf("\n Enter a number = ");
+scanf("%d", &n);
+printf(" Series: ");
+i = 1;
+do
+{
+a = b;
+printf("%d,", a);
+b = b * 3;
+i++;
+} while(i <= n);
+}
+Output-
+Enter a number= 4
+series= 5,15,45,105,
+
+188.  WAP to follow Series......
+                            1,4,7,10...... n terms
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i, n, s, p;
+p = 1;
+printf("\n Enter a number = ");
+scanf("%d", &n);
+printf(" series : ");
+i = 1;
+do
+{
+s = p;
+printf("%d,", s);
+p = p + 3;
+i++;
+} while(i <= n);
+}
+Output- 
+Enter a number= 4
+series= 1,4,7,10,
+
+189.  WAP to follow Series....
+                        8,14,20,26,32.....n terms .
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i, n, s, p;
+p = 8;
+printf("\n Enter a number = ");
+scanf("%d", &n);
+printf(" series : ");
+i = 1;
+do
+{
+s = p;
+printf("%d,", s);
+p = p + 6;
+i++;
+} while(i <= n);
+}
+Output-
+Enter a number= 5
+series= 8,14,20,26,32,
+
+190.  WAP to follow Series...
+                      7,15,23,31..n terms .
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i, n, a, b;
+b = 7;
+printf("\n Enter a number=");
+scanf("%d", &n);
+printf("Series: ");
+i = 1;
+do
+{
+a = b; 
+printf("%d, ", a);
+b = b + 8;
+i++;
+} while (i <= n);
+}
+Output-
+Enter a number= 5
+series= 7,15,23,31,
+
+191.  WAP to input radius of circle calculate and print it is area using function .
+#include <stdio.h>
+#include <conio.h>
+void area(float);
+int main()
+{
+float a;
+printf("\n Enter the radius of the circle: ");
+scanf("%f",&a);
+area(a);
+}
+void area(float r)
+{
+float b;
+b = 3.14 * r * r;
+printf("\n Area of the circle: %f",b);
+}
+Output-
+Enter the radius of the circle: 4
+Area of the circle = 50.240002 
+
+192.  WAP to input length and breadth of a rectangle calculate  and print its area and parameter using function.
+#include <stdio.h>
+#include <conio.h>
+void calculate(float, float);
+int main() 
+{
+float length, breadth;
+printf("\n Enter the length of the rectangle: ");
+scanf("%f", & length);
+printf("\n Enter the breadth of the rectangle: ");
+scanf("%f",& breadth);
+calculate(length, breadth);
+}
+void calculate(float l, float b) 
+{
+float area = l * b;
+float perimeter = 2 * (l + b);
+printf("\n Area of the rectangle: %f", area);
+printf("\n Perimeter of the rectangle: %f", perimeter);
+}
+Output-
+Enter the length of the rectangle= 5
+Enter the breadth of the rectangle=3
+Area of the rectangle =15.000
+perimeter if the rectangle =16.000
+
+193.  WAP to input a number and check it is even or odd using function .
+#include <stdio.h>
+#include <conio.h>
+void check(int);
+int main()
+{
+int n;
+printf("\n Enter a number: ");
+scanf("%d", &n);
+check(n);
+}
+void check(int n)
+{
+if (n%2==0) 
+{
+printf("\n %d is Even Number ", n);
+} 
+else
+{
+printf("\n %d is Odd Number ", n);
+}
+}
+Output-
+1). Enter a number: 5
+     5 is Odd Number
+2). Enter a number: 8
+     8 is Even Number
+
+194. WAP to input a number and check if it is a buzz number or not using a function.
+#include <stdio.h>
+#include <conio.h>
+void check(int);
+int main()
+{
+int n;
+printf("\n Enter a number: ");
+scanf("%d", &n);
+check(n);
+}
+void check(int n)
+{
+if (n % 7 == 0 || n % 10 == 7) 
+{
+printf("\n %d is a Buzz number", n);
+}
+else
+{
+printf("\n %d is not a Buzz number", n);
+}
+}
+Output- 
+Enter a number = 4
+4 is not a Buzz number.
+
+195.  WAP to input a number, calculate and print the Factorial value of this number using a function . 
+#include <stdio.h>
+#include <conio.h>
+void calculate(int);
+int main() 
+{
+int n;
+printf("\n Enter a number: ");
+scanf("%d", &n);
+calculate(n);
+}
+void calculate(int n)
+{
+int fac = 1;
+for (int i = 1; i <= n; i++) 
+{
+fac = fac* i;
+}
+printf("\n Factorial of %d is: %d", n,fac);
+}
+Output-
+Enter a number= 4
+Factorial of 4 is : 24
+
+196. WAP  to input a number of terms and print Fibonacci series with these terms using the function.
+#include <stdio.h>
+#include <conio.h>
+void series(int);
+int main() 
+{
+int n;
+printf("\n Enter number of terms for Fibonacci series: ");
+scanf("%d", &n);
+series(n);
+}
+void series(int n)
+ {
+int a = 0, b = 1,d;
+for (int i = 1; i <= n; i++)
+{
+printf("%d,", a);
+d= a + b;
+a = b;
+b =d;
+}
+}
+Output- 
+Enter a number of terms for fibonacci series: 3
+0,1,1
+197. Write a menu to input a digit (from 0 to 9 ) and print this digit in word from for example ==> if input 0 -> print Zero and so on using function.
+#include <stdio.h>
+#include <conio.h>
+void menu(int);
+void main()
+{
+int a;
+printf("\n enter digit from 0 to 9 =");
+scanf("%d",&a);
+menu(a);
+}
+
+void menu(int p) 
+{
+switch (p)
+{
+case 0:
+printf("Zero");
+break;
+case 1:
+printf("One");
+break;
+case 2:
+printf("Two");
+break;
+case 3:
+printf("Three");
+break;
+case 4:
+printf("Four");
+break;
+case 5:
+printf("Five");
+break;
+case 6:
+printf("Six");
+break;
+case 7:
+printf("Seven");
+break;
+case 8:
+printf("Eight");
+break;
+case 9:
+printf("Nine");
+break;
+default:
+printf("\n ERROR :: Only enter 0 to 9 ");
+}
+}
+Output-
+Enter a Digits (0-9 ): 5
+Five
+
+198.  WAP to input X and N and calculate the sum of the following series...
+        x/1+x^2/2+x^3+3+........n terms using functions.
+#include <stdio.h>
+#include <conio.h>
+void Series(float,float);
+int main() 
+{
+float x,n;
+printf("\n Enter the value of X: ");
+scanf("%f", &x);
+printf("\n Enter the number of terms N: ");
+scanf("%f", &n);
+Series(x,n);
+}
+void Series(float x,float n)
+{
+float sum = 0,p;
+for (int i = 1; i <= n; i++) 
+{
+p = pow(x, i) / i;
+sum = sum + p ;
+}
+printf("\n Sum of the series: %f", sum);
+}
+Output- 
+Enter the value of X :4
+Enter the number of terms  N : 6
+sum of the series = 984.800049
+
+199. WAP to input a number and calculate the sum of its digits using function .
+#include <stdio.h>
+#include <conio.h>
+void sum(int);
+int main()
+{
+int n;
+printf("\n Enter a number: ");
+scanf("%d", &n);
+sum(n);
+}
+void sum(int n)
+{
+int sum,digit;
+sum=0;
+while (n > 0) 
+{
+digit = n % 10;
+sum = sum + digit;
+n =n/ 10;
+}
+printf("\n Sum of digits: %d",sum);
+}
+Output- 
+Enter a number = 4
+sum of digits : 4
+
+200. WAP to input a number and count the number of digits using function .
+#include <stdio.h>
+#include <conio.h>
+void count(int);
+int main() 
+{
+int n;
+printf("\n Enter a number: ");
+scanf("%d", &n);
+count(n);
+}
+void count(int n)
+{
+int count = 0;
+while (n> 0) 
+{
+n =n/ 10;
+count++;
+}
+printf("\n Number of digits: %d",count);
+}
+Output- 
+Enter a number : 8
+Number of digits: 1
+
+201.  WAP to input a number and calculate the number of digits using a function with return value. 
+
+#include <stdio.h>
+#include <conio.h>
+int count(int);
+int main()
+ {
+int n,r;
+printf("\n Enter a number: ");
+scanf("%d", &n);
+r = count(n);
+printf("\n Number of digits: %d",r);
+}
+
+int count(int n)
+ {
+int c=0;
+while (n > 0)
+{
+n = n/10;
+c++;
+}
+return c;
+}
+Output- 
+Enter a number: 9
+Number of digit: 1
+
+202.  WAP  to input a number and calculate the sum of digits of this number using a function with return value. 
+
+#include <stdio.h>
+#include <conio.h>
+int sum(int);
+int main() 
+{
+int n,r;
+printf("\n Enter a number: ");
+scanf("%d", &n);
+r = sum(n);
+printf("\n Sum of digits: %d",r);
+}
+
+int sum(int n) 
+{
+int sum = 0;
+while (n > 0)
+{
+sum =sum + n % 10;
+n = n/ 10;
+}
+return sum;
+}
+Output- 
+Enter a number: 37
+Sum of digit: 10
+
+203. WAP to input a number and calculate the number of factors using a function with return value .
+
+#include <stdio.h>
+#include <conio.h>
+int count(int);
+int main() 
+{
+int n,r;
+printf("\n Enter a number: ");
+scanf("%d", &n);
+r = count(n);
+printf("\n Number of factors: %d",r);
+}
+
+int count(int n) 
+{
+int c = 0;
+for (int i = 1; i <= n; i++)
+{
+if (n % i == 0)
+{
+c++;
+}
+}
+return c;
+}
+Output- 
+Enter a number: 5
+Number of Factors: 2
+
+204. WAP to input a number and check it is prime or composite using a function with return value .
+
+#include <stdio.h>
+#include <conio.h>
+int check(int);
+int main() 
+{
+int n,r;
+printf("\n Enter a number: ");
+scanf("%d", &n);
+r = check(n);
+if (r == 1) 
+{
+printf("\n %d is a Prime number",n);
+} 
+else
+{
+printf("\n %d is a Composite number",n);
+}
+}
+
+int check(int n) 
+{
+int s = 1;
+if (n <=1) 
+{
+s = 0;
+} 
+else 
+{
+for (int i = 2; i <= n / 2;i++)
+{
+if (n% i==0)
+{
+s = 0;
+}
+}
+}
+return s;
+}
+Output- 
+Enter a number: 5
+5 is a prime number 
+
+205. WAP to input a number and check if it is a neon number or not using a function with return value.
+
+#include <stdio.h>
+#include <conio.h>
+int check(int);
+int main() 
+{
+int n, b;
+printf("\n Enter a number: ");
+scanf("%d", &n);
+b = check(n);
+if (b == 1) 
+{
+printf("\n %d is a Neon number", n);
+}
+else 
+{
+printf("\n %d is not a Neon number", n);
+}
+}
+
+int check(int n)
+ {
+int sq = n * n;
+int sum = 0;
+while (sq > 0) 
+{
+sum = sum + sq % 10;
+sq = sq / 10;
+}
+if (sum == n)
+{
+return 1; 
+} 
+else
+{
+return 0; 
+}
+}
+Output- 
+Enter a number:1
+1 is a Neon number.
+
+206. WAP to input a number and calculate sum of all factors using function with return value 
+
+#include <stdio.h>
+#include <conio.h>
+int sum(int);
+int main() 
+{
+int num, r;
+printf("\n Enter a number: ");
+scanf("%d", &num);
+r = sum(num);
+printf("\n The sum of all factors of %d is: %d", num, r);
+}
+
+int sum(int n)
+ { 
+int sum = 0;
+for (int i = 1; i <= n; i++) 
+{
+if (n % i == 0)
+{
+sum =sum + i;
+}
+}
+return sum; 
+}
+Output- 
+Enter a number: 4
+The sum of all factors of 4 is: 7
+
+207. WAP to input a number and check it is perfect number or not using function with return value 
+
+#include <stdio.h>
+#include <conio.h>
+int check(int);
+int main() 
+{
+int num, r;
+printf("\n Enter a number: ");
+scanf("%d", &num);
+r = check(num);
+if (r == 1)
+{
+printf("\n %d is a Perfect number", num);
+} 
+else 
+{
+printf("\n %d is not a Perfect number", num);
+}
+}
+
+int check(int n)
+{
+int sum = 0;
+for (int i = 1; i <= n / 2; i++)
+{
+if (n % i == 0)
+{
+sum += i;
+}
+}
+if (sum == n)
+{
+return 1;
+} 
+else
+{
+return 0;
+}
+}
+output-
+Enter a number: 
+is a perfect number.
+
+208. WAP to input n and r and ncr = n!/r!*(n-r)! using a function with return value.
+
+#include<stdio.h>
+#include<conio.h>
+int fact(int);
+int main()
+{
+ int n, r, d, fn, fr, fd;
+ float c;
+ printf("\n Enter a \" n \" value: ");
+ scanf("%d",&n);
+ printf("\n Enter a \" r \" value: ");
+ scanf("%d",&r);
+ d=n-r;
+ fn=fact(n);
+ fr=fact(r);
+ fd=fact(d);
+ c=1.0*(fn/fr*fd);
+ printf("\n Formula (ncr = n!/r!*(n-r)! ) : Answer is = %f",c);
+ }
+ int fact(int x)
+ {
+int i,f=1;
+for ( i = 1 ; i <=x; i++)
+{
+f=f*i;
+}
+return(f);
+ }
+Output-
+Enter a n value : 
+Enter a r value :
+Formula (ncr = n!/r!*(n-r)! ) : Answer is = 
+
+209. WAP to input a number and check if it is a special number or not using a function with return value. 
+
+#include<stdio.h>
+#include<conio.h>
+int check(int);
+int main()
+{
+int n,q;
+printf("Enter a number: ");
+scanf("%d", &n);
+q = check(n);
+if (q == n) 
+{
+printf("%d is a special number.\n", n);
+} 
+else
+{
+printf("%d is not a special number.\n", n);
+}
+}
+
+int check(int n)
+{
+int temp, fact, sum = 0, digit;
+temp = n;
+while (temp > 0) 
+{
+digit = temp % 10;fact = 1;
+for (int i = 1; i <= digit; i++)
+{
+fact = fact * i;
+}
+sum = sum + fact;
+temp = temp / 10;
+}
+return sum;
+}
+Output-
+Enter a number: 
+is a special number. 
+
+210. WAP to input a number and check if it is a magic number or not using a function with a return value .
+
+#include<stdio.h>
+#include<conio.h>
+int sum(int);
+int digit(int);
+int main()
+{
+int n,v;
+printf("\n Enter a number: ");
+scanf("%d",&n);
+v=digit(n);  
+if (v==1)
+{
+printf("\n %d is magic number ",n);
+}
+else
+{
+printf("\n %d is not a magic number ",n);
+} 
+}
+int digit(int x)
+{
+int i;
+while (i>9)
+{
+i = sum(i);
+}
+return(i);
+}
+int sum(int y)
+{
+int j,s,r;
+j=y;
+s=0;
+while (j>0)
+{
+r=j%10;
+s=s+r;
+j=j/10;
+}
+return(s); 
+}
+Output- 
+Enter a number:
+is a magic number. 
+
+211. WAP to input 5 elements into an array and print all the elements in a different line with its index value for ex= at index  0 element=15 and so on …
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int array[5];
+printf("Enter a number: ");
+for (int i = 0; i <5; i++)
+{
+scanf("%d",&array[i]);
+}
+for (int j = 0; j <5 ; j++)
+{
+printf("At index %d, element = %d\n", j, array[j]);
+}
+}
+Output-
+Enter a number: 
+
+212.  WAP to input 5 elements into an array and calculate the sum of all elements .  
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int array[5];
+printf("Enter a number: ");
+for (int i = 0; i <5; i++)
+{
+scanf("%d",&array[i]);
+}
+int sum=0;
+for (int j = 0; j <5 ; j++)
+{
+sum=sum+array[j];
+}
+printf("\n Sum of all elements= %d",sum);
+}
+Output-
+Enter a number: 
+Sum of all elements= 
+
+213. WAP to input 5 elements into an array and calculate the product of even elements. 
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int array[5];
+printf("Enter a number: ");
+for (int i = 0; i <5; i++)
+{
+scanf("%d",&array[i]);
+}
+int pro=1;
+int en;
+for (int i = 0; i < 5; i++) {
+printf("At index %d, element = %d\n", i, array[i]);
+if (array[i] % 2 == 0)
+{
+pro = pro * array[i];
+en = 1;
+}
+}
+printf("\nProduct of even elements: %d\n",pro);
+}
+Output-
+Enter a number: 
+
+214. WAP to input 5 elements into an array and print only Buzz numbers . 
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int array[5];
+printf("Enter a number: ");
+for (int i = 0; i <5; i++)
+{
+scanf("%d",&array[i]);
+}
+for (int j = 0; j <5 ; j++)
+{
+if (array[j]%7==0||array[j]%10==7)
+{
+printf("\n %d is only Buzz Number ",array[j]);
+}
+}
+}
+Output- 
+Enter a number: 
+
+215. WAP to input 5 elements into an array and input a number to check if this number exists in this array or not.
+
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+int array[5];
+printf("Enter a number for array: ");
+for (int i = 0; i <5; i++)
+{
+scanf("%d", &array[i]);
+}
+printf("Enter a number to check: ");
+int n,j;
+scanf("%d", &n);
+for ( j = 0; j <5; j++)
+{
+if (n == array[j])
+{
+printf("%d is exist in array ",n);
+break;
+}
+}
+if (j == 5)
+{
+printf("%d is not exist in array ",n);
+}
+}
+
+216. WAP to input  5 elements into an array and print the largest and smallest elements of the array.
+
+#include <stdio.h>
+#include <conio.h>
+int  main()
+{
+int i, j, array[5], max, min;
+printf("Enter a number for array: ");
+for (i = 0; i <= 4; i++)
+{
+scanf("%d", &array[i]);
+}
+max = array[0];
+min = array[0];
+for (j = 0; j <= 4; j++)
+{
+if (array[j]> max)
+{
+max=array[j];
+}
+if (array[j]<min)
+{
+min=array[j];
+}
+}
+printf("max number  = %d\n min number = %d",max,min);
+}
+
+217. WAP to input  2 arrays of the same size and calculate the sum of these arrays in another array.
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int array1[5], array2[5], sum[5], i, j, k, l;
+printf("Enter the first arrays number: ");
+for (i = 0; i <= 4; i++)
+{
+scanf("%d", &array 1[i]);
+}
+printf("Enter the second arrays number: ");
+for (j = 0; j <= 4; j++)
+{
+scanf("%d", &array 2[j]);
+}
+for (k = 0; k <= 4; k++)
+{
+sum[k] = array1[k] + array2[k];
+}
+for (l = 0; l <= 4; l++)
+{
+printf("%d ", sum[l]);
+}
+}
+
+218.  WAP to input 2 arrays of the same size and check equality in another array.
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int array1[5], array2[5], i, j, k;
+printf("Enter the first array numbers: ");
+for (i = 0; i <= 4; i++)
+{
+scanf("%d", &array 1[i]);
+}
+printf("Enter the second array numbers: ");
+for (j = 0; j <= 4; j++)
+{
+scanf("%d", &array 2[j]);
+}
+for (k = 0; k <= 4; k++)
+{
+if (array1[k] != array2[k])
+{
+printf("First and second array is not equal...");
+break;
+}
+}
+if (k == 5)
+{
+printf("First and second array is equal...");
+}
+}
+
+219. WAP to input 5 elements into an array and swap and swap first element with last element,second element with second last and so on..
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int array[5];
+printf("\n enter a number: ");
+for (int i = 0; i <=4 ; i++)
+{
+scanf("%d",&array[i]);
+}
+printf("\n \t Before swapping: \n");
+for (int i = 0; i <=4; i++)
+{
+printf("\n Index = %d , Elements = %d  ",i,array[i]);
+}
+int temp;
+for (int i = 0; i <=2; i++)
+{
+temp=array[i];
+array[i]=array[4-i];
+array[4-i]=temp;
+}
+printf("\n \n\t After swapping : \n");
+for (int i = 0; i <=4; i++)
+{
+printf("\n Index = %d , Elements = %d  ",i,array[i]);
+}
+}
+
+220. WAP to input two arrays of the same size or different size merge these two arrays in a third array.
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int array 1[5], array 2[6], i, j, k, l, m;
+printf("\n Enter the first array number: ");
+for (i = 0; i <= 4; i++)
+{
+scanf("%d", &array 1[i]);
+}
+printf("Enter the second array number: ");
+for (j = 0; j <= 5; j++)
+{
+scanf("%d", &array 2[j]);
+}
+printf("\nMerge first array and second array in third array: ");
+int array 3[11];
+for (k = 0; k <= 4; k++)
+{
+array 3[k] = array 1[k];
+}
+for (l = 0; l <= 5; l++)
+{
+array 3[k + l] = array 2[l];
+}
+for (m = 0; m <= 10; m++)
+{
+printf("\n Third array index : %d , Third array value : %d ",m,array 3[m]);
+}
+}
+
+
+
+
+
+
