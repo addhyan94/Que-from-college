@@ -26,6 +26,7 @@ for (int i = 0; i < 3; i++)
     
 }
 
+
 /*~~ Output 
 INDEX => Row: 0 || Colum: 0 || Enter Elements :  1
 INDEX => Row: 0 || Colum: 1 || Enter Elements :  2
