@@ -26,3 +26,20 @@ int main()
         printf("\n");
     }
 }
+
+/*~~~Output 
+INDEX => Row: 0 || Colum: 0 || Enter Elements :  1
+INDEX => Row: 0 || Colum: 1 || Enter Elements :  2
+INDEX => Row: 0 || Colum: 2 || Enter Elements :  3
+INDEX => Row: 1 || Colum: 0 || Enter Elements :  4
+INDEX => Row: 1 || Colum: 1 || Enter Elements :  5
+INDEX => Row: 1 || Colum: 2 || Enter Elements :  6
+INDEX => Row: 2 || Colum: 0 || Enter Elements :  7
+INDEX => Row: 2 || Colum: 1 || Enter Elements :  8
+INDEX => Row: 2 || Colum: 2 || Enter Elements :  9
+ Main diagonals in matrix form ::
+1
+ 5
+  9
+
+*/
