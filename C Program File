@@ -1,4 +1,4 @@
-                                                          C Program file 
+/*                                                          C Program file 
 
 
 																													All Programs 1 to 220 With Outputs............
@@ -2084,8 +2084,8 @@ else
 printf("\n %d is not a Neon Number.", n);
 }
 }
-Output- 
-
+Output- */
+/*
 86. Wap to input a number and check if it is an armstrong number or not . 
 a number is armstrong if the sum of power of each  digit ( Power = number of digits ) = number. 
 
@@ -2402,11 +2402,11 @@ printf("\n %d is not a magic number.\n", o);
 }
 } 
 Output-
-….
+….*/
 
-98. /* WAP to input two number amd calculate lcm and hcf of these number .
-formula = first number / second number = lcm/hcf */
-
+// 98. /* WAP to input two number amd calculate lcm and hcf of these number .
+//formula = first number / second number = lcm/hcf */
+/*
 #include <stdio.h>
 #include<conio.h>
 int main()
@@ -6187,10 +6187,4 @@ for (m = 0; m <= 10; m++)
 {
 printf("\n Third array index : %d , Third array value : %d ",m,array 3[m]);
 }
-}
-
-
-
-
-
-
+}*/
