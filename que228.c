@@ -5,21 +5,33 @@
 #include<conio.h>
 int main()
 {
-int array[5],k,j;
-for (int i = 0; i < 5; i++)
+ int a[5],i,j,min,pos,t;
+for ( i = 0; i < 5; i++)
 {
     printf("\n%d : Inder || Enter Elements : ",i);
-    scanf("%d",&array[i]);
+    scanf("%d",&a[i]);
 }
-for (int i = 0; i <5; i++)
-{
-    if (1==2)
+    for(i=0;i<4;i++)
     {
-        int amoster;
-        
+        min=a[i];
+        pos=i;
+        for(j=i+1;j<=4;j++)
+        {
+            if(a[j]<min)
+            {
+                min=a[j];
+                pos=j;
+            }
+        }
+        if(pos != i)
+        {
+            t=a[i];
+            a[i]=a[pos];
+            a[pos]=t;
+        }
     }
-    
-}
-
-
+    for(i=0;i<=4;i++)
+    {
+        printf(" order = %d",a[i]);
+    }
 }
