@@ -14,6 +14,7 @@ int main()
         scanf("%d",&array1[i][j]);
     }
     }
+    printf("...............................................\n");
      for (int i = 0; i < 3; i++)
     {
     for (int j = 0; j < 3; j++)
@@ -43,3 +44,31 @@ int main()
         printf("\n");
     }
 }
+
+/*~~Output-
+INDEX => Row: 0 || Colum: 0 || Enter Elements Array 1 :  1
+INDEX => Row: 0 || Colum: 1 || Enter Elements Array 1 :  2
+INDEX => Row: 0 || Colum: 2 || Enter Elements Array 1 :  3
+INDEX => Row: 1 || Colum: 0 || Enter Elements Array 1 :  4
+INDEX => Row: 1 || Colum: 1 || Enter Elements Array 1 :  5
+INDEX => Row: 1 || Colum: 2 || Enter Elements Array 1 :  6
+INDEX => Row: 2 || Colum: 0 || Enter Elements Array 1 :  7
+INDEX => Row: 2 || Colum: 1 || Enter Elements Array 1 :  8
+INDEX => Row: 2 || Colum: 2 || Enter Elements Array 1 :  9
+...............................................
+INDEX => Row: 0 || Colum: 0 || Enter Elements Array 2 :  9
+INDEX => Row: 0 || Colum: 1 || Enter Elements Array 2 :  8
+INDEX => Row: 0 || Colum: 2 || Enter Elements Array 2 :  7
+INDEX => Row: 1 || Colum: 0 || Enter Elements Array 2 :  6
+INDEX => Row: 1 || Colum: 1 || Enter Elements Array 2 :  5
+INDEX => Row: 1 || Colum: 2 || Enter Elements Array 2 :  4
+INDEX => Row: 2 || Colum: 0 || Enter Elements Array 2 :  3
+INDEX => Row: 2 || Colum: 1 || Enter Elements Array 2 :  2
+INDEX => Row: 2 || Colum: 2 || Enter Elements Array 2 :  1
+
+product of array1 and array2:
+18 30 36
+72 75 72
+126 120 108
+
+*/
