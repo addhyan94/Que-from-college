@@ -5,7 +5,7 @@
 #include<string.h>
 void main()
 {
-char a[50],b[50],ch;
+char a[50],b[40];
 int i,s,l;
 printf("Enter a number: ");
 gets(a);
@@ -15,7 +15,7 @@ while (i<l)
 {
     b[i]=a[l-i-1];
     i++;
-}
+    }
  b[i] = '\0'; // Null terminate the reversed string hai bhai
  printf("Your string is : %s : \n",b); // %s ka kaam hai string dena || jo us variable me dala hai ||
 s=strcmp(a,b);
