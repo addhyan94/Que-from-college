@@ -4,7 +4,7 @@ Input string Manoj Kumar Verma output string M.K.Verma .    */
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
-
+//                          sahi ni hai kuki M.K.Verma nahi aa rha ahi M.K.V he aa rha hai 
 void main() 
 {
     char a[50];
