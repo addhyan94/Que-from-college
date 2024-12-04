@@ -13,7 +13,8 @@ void main()
     gets(a); 
     l = strlen(a);
     printf("%c.", a[0]);
-    i = 0;
+    int k;
+    k=i = 0;
     while (i < l) 
     {
         if (a[i] == ' ' && a[i + 1] != '\0') 
@@ -22,13 +23,15 @@ void main()
         }
         i++;
     }
-    
+    printf(" \n aa gaya j loop ke pass ");
     for (int j = l - 1; j >= 0; j--) 
     {
+        printf("\n aa gaya j ke aander ");
         if (a[j] == ' ') 
         {
-            printf("%s", &a[j + 1]); 
+            printf("%s", &a[j]); 
             break;
         }
     }
+    printf(" \n aa gaya j loop ke bahar ");
 }
