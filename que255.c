@@ -1,3 +1,4 @@
+//                   Pointer
 // WAP to input a number calculate sum of it's digits using call by reference.
 
 #include<stdio.h>

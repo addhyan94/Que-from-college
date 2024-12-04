@@ -1,3 +1,4 @@
+//                   Pointer
 // WAP to input a number calculate it's factorial value using call by reference.
 
 #include<stdio.h>
@@ -24,6 +25,6 @@ for(i=1; i<= *a; i++)
 {
     f=f*i;
 }
-printf("\n factorial value of %d=%d", *a,f);
+printf("\n factorial value of %d = %d", *a,f);
     }
 }

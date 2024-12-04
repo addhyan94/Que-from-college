@@ -1,3 +1,4 @@
+//                   Pointer
 // WAP to input a number and calculate it's factor using call by reference.
 
 #include<stdio.h>
