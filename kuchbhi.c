@@ -1,8 +1,37 @@
 // // kuch to karna he hai na to kar rahe hai pprogram bana rahe hai 
-// //
-// //
+//              Recursion In function 
+// WAP to input a number and count number of fector using recursion.
+// #include<stdio.h>
+// #include<conio.h>
+// int fac(int,int);
+// void main()
+// {
+//     int n,f;
+//     printf("Enter a number: ");
+//     scanf("%d",&n);
+//     f=fac(n,1);
+//     printf("\n The Count number of Fector: %d",f);
+// }
 
+// int fac(int x, int i)
+// {
+//      printf("\n Function ke aander aa gaya %d , i = %d ",x,i);
+//     if (i > x) 
+//     {
+//          printf("\n X %d ki value i %d se choti hai isliye ",x,i);
+//         return 0;
+//     }
 
+//     if (x % i == 0)
+//     {
+//         printf("\nx ki value 0 ke barabar ho rhai hai i = %d",i);
+//         return 1 + fac(x, i + 1);
+//     } 
+//      printf("\n ye factor nahi hai isliye confition false ho gay hia =====%d",i);
+//     return fac(x, i + 1);
+// }
+
+//              Dushra program chalu ho gaya hai 
 // /*#include <stdio.h>
 // #include <conio.h>
 
