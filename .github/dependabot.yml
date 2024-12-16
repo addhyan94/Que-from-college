@@ -1,0 +1,23 @@
+# 🚀 Dependabot Configuration for Addhyan's GitHub Repository 🚀
+# This configuration automatically manages updates for GitHub Actions and dependencies.
+# Stay updated, stay secure, and let automation do the work! ✨
+
+version: 2
+
+updates:
+  # ⚡ Manage GitHub Actions Dependencies ⚡
+  - package-ecosystem: "github-actions" # Automating dependency management for workflows
+    directory: "/"                      # Root directory (where workflows are located)
+    schedule:
+      interval: "weekly"                # Weekly updates for better stability
+      time: "03:00"                     # Updates checked at 3:00 AM UTC
+    commit-message:
+      prefix: "🔄 chore(deps)"          # Eye-catching prefix for update commits
+    labels:
+      - "dependencies"                  # Automatically tag PRs with 'dependencies'
+      - "automation"                    # Add an extra layer of classification
+    reviewers:                          # Add yourself or your team as reviewers
+      - "addhyan94"
+
+  # 🌟 Future Configurations Can Be Added Here 🌟
+  # For example, you can add npm, Maven, or pip configurations based on project needs.
