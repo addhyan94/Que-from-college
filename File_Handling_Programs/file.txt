@@ -1,0 +1,5 @@
+Hey Progammer 
+
+This is a only testing massage 
+
+for File Hndling Read mode
