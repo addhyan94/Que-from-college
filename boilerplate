@@ -8,12 +8,39 @@
 		"prefix": "c",
 		"body": [
 			"#include<stdio.h>",
-            "#include<conio.h>",
-            "int main()",
-            "{",
-			"$1",
-            "}",
+			"#include<conio.h>",
+			"void main()",
+			"{",
+			" $1",
+			"}",
 		],
 		"description": "The c boilerplate"
+	}
+	"String boilerplate": {
+		"prefix": "st",
+		"body": [
+			"#include<stdio.h>",
+			"#include<conio.h>",
+			"#include<string.h>",
+			"void main()",
+			"{",
+			"char","$1",
+			"}",
+		],
+		"description": "The stc boilerplate"
+	}
+	"File Handling boilerplate": {
+		"prefix": "fh",
+		"body": [
+			"#include<stdio.h>",
+			"void main()",
+			"{",
+			"FILE *fptr;",
+			"fptr = fopen(\"file.txt\",\"w\");",
+			"$1",
+			"fclose(fptr);",
+			"}",
+		],
+		"description": "The File Handling boilerplate"
 	}
 }
